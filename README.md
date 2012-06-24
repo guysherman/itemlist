@@ -5,7 +5,9 @@ A JavaScript library which creates an editable list of items, similar to a Trell
 
 Current Version: 0.0.1
 
-Features:
+## Features
+
+Already there:
   - Add / Remove items in the list
   - RESTful
   - Title and Url specified through HTML5 data attributes
