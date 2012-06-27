@@ -1,11 +1,14 @@
 <!doctype HTML>
 <html>
 	<head>
+		<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+		
 		<title>ItemList Example</title>
 		<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 		<script src="http://underscorejs.org/underscore-min.js"></script>
 		<script src="http://backbonejs.org/backbone-min.js"></script>
 		<script src="/itemlist.js"></script>
+		
 		
 		<script id="topTemplate" type="text/template">
 			<div class="list-title"><%= title %></div>
@@ -14,7 +17,7 @@
 		</script>
 		
 		<script id="bottomTemplate" type="text/template">
-			<strong><%= title %></strong><i class="icon-remove">x</i>
+			<strong><%= title %></strong><i class="icon-remove"></i>
 		</script>
 		
 		<style>
@@ -25,22 +28,27 @@
 			
 			#activityList {
 				width: 300px;
+				
 			}
 			
 			#activityList .list-title {
-				border-top: 1px solid #b9b9b9;
-				border-left: 1px solid #b9b9b9;
-				border-right: 1px solid #b9b9b9;
-				background-color: #cccccc;
-				padding: 10px;
+				border-top: 1px solid #054;
+				border-left: 1px solid #054;
+				border-right: 1px solid #054;
+				border-top-right-radius: 5px;
+				border-top-left-radius: 5px;
+				background-color: #05C;
+				padding: 8px;
 				color:white;
 			}
 			
 			#activityList .items-container {
-				border-bottom: 1px solid #4092B3;
-				border-left: 1px solid #4092B3;
-				border-right: 1px solid #4092B3;
-				background-color: #59D0FF;
+				border-bottom: 1px solid #c0c0c0;
+				border-left: 1px solid #c0c0c0;
+				border-right: 1px solid #c0c0c0;
+				border-bottom-right-radius: 5px;
+				border-bottom-left-radius: 5px;
+				background-color: #c9c9c9;
 				padding: 10px;
 			}
 			
@@ -50,8 +58,9 @@
 				border-right: 1px solid white;
 				border-radius: 3px;
 				background-color: white;
-				padding: 10px;
+				padding: 5px;
 				margin-bottom: 5px;
+				font-size:small;
 			}
 			
 			

@@ -30,7 +30,29 @@ server.get("/itemlist.js", function(req, res) {
 		if (err) {
 			console.log(err);
 		} else {
-			res.header('Content-Type', 'text/html');
+			res.header('Content-Type', 'text/javascript');
+			res.send(200, data);
+		}
+	});
+});
+
+server.get("/css/bootstrap.min.css", function(req, res) {
+	fs.readFile("./files" + url.parse(req.url).pathname, function(err, data) {
+		if (err) {
+			console.log(err);
+		} else {
+			res.header('Content-Type', 'text/css');
+			res.send(200, data);
+		}
+	});
+});
+
+server.get("/img/*", function(req, res) {
+	fs.readFile("./files" + url.parse(req.url).pathname, function(err, data) {
+		if (err) {
+			console.log(err);
+		} else {
+			res.header('Content-Type', 'image/png');
 			res.send(200, data);
 		}
 	});
