@@ -28,3 +28,5 @@ More coming soon...
 
 Take a look at the examples folder, it has a nodejs application which provides the minimum level of functionality, as
 well as an html file which shows what you need to do to instantiate one of these components.
+
+There's an online version of the example: [http://itemlistexample.apphb.com/index.html](here)
