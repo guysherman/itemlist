@@ -13,7 +13,7 @@ server.get("/index.html", function(req, res) {
 	var newId = uuid.v4();
 	dummyDocuments.push( { id: newId , activities: [ {id: uuid.v4(), "title":"Default Activity","description":"","deadline":""} ] } );
 	
-	fs.readFile("." + url.parse(req.url).pathname, function(err, data) {
+	fs.readFile("./files" + url.parse(req.url).pathname, function(err, data) {
 		if (err) {
 			console.log(err);
 		} else {
@@ -26,7 +26,7 @@ server.get("/index.html", function(req, res) {
 });
 
 server.get("/itemlist.js", function(req, res) {
-	fs.readFile("." + url.parse(req.url).pathname, function(err, data) {
+	fs.readFile("./files" + url.parse(req.url).pathname, function(err, data) {
 		if (err) {
 			console.log(err);
 		} else {
@@ -77,4 +77,4 @@ server.del("/activities/:id/:aid", function(req, res) {
 
 
 
-server.listen(8080);
+server.listen(process.env.PORT || 8090);

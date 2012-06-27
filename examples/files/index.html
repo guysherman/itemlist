@@ -1,0 +1,78 @@
+<!doctype HTML>
+<html>
+	<head>
+		<title>ItemList Example</title>
+		<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+		<script src="http://underscorejs.org/underscore-min.js"></script>
+		<script src="http://backbonejs.org/backbone-min.js"></script>
+		<script src="/itemlist.js"></script>
+		
+		<script id="topTemplate" type="text/template">
+			<div class="list-title"><%= title %></div>
+			<div class="items-container"></div>
+			<div class="add-activity">Add Activity</div>
+		</script>
+		
+		<script id="bottomTemplate" type="text/template">
+			<strong><%= title %></strong><i class="icon-remove">x</i>
+		</script>
+		
+		<style>
+			body {
+				font-family:arial;
+				
+			} 
+			
+			#activityList {
+				width: 300px;
+			}
+			
+			#activityList .list-title {
+				border-top: 1px solid #b9b9b9;
+				border-left: 1px solid #b9b9b9;
+				border-right: 1px solid #b9b9b9;
+				background-color: #cccccc;
+				padding: 10px;
+				color:white;
+			}
+			
+			#activityList .items-container {
+				border-bottom: 1px solid #4092B3;
+				border-left: 1px solid #4092B3;
+				border-right: 1px solid #4092B3;
+				background-color: #59D0FF;
+				padding: 10px;
+			}
+			
+			#activityList .items-container .activity {
+				border-bottom: 1px solid white;
+				border-left: 1px solid white;
+				border-right: 1px solid white;
+				border-radius: 3px;
+				background-color: white;
+				padding: 10px;
+				margin-bottom: 5px;
+			}
+			
+			
+		</style>
+		
+		<script type="text/javascript">
+			$(function() {
+				var listTemplate = new String($("#topTemplate")[0].innerHTML);
+				var itemTemplate = new String($("#bottomTemplate")[0].innerHTML);
+				var selector = "#activityList";
+				
+				ItemList.itemList(listTemplate, itemTemplate, selector);
+			});
+		</script>
+		
+		
+	</head>
+	<body>
+		<div id="activityList" data-title="My Activities" data-list-url="/activities/:id:">
+		
+		</div>
+	
+	</body>
+</html>
