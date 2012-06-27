@@ -19,3 +19,12 @@ Coming Soon:
   - Customizeable edit behavior
   - Ordering of items
   - Filtering of items
+
+## How it works
+
+More coming soon...
+
+## Example
+
+Take a look at the examples folder, it has a nodejs application which provides the minimum level of functionality, as
+well as an html file which shows what you need to do to instantiate one of these components.
