@@ -92,7 +92,7 @@
             this.itemViews = [];
 
             this.collection.each(function(activity) {
-                me.itemViews.push( createItemView(activity, this.itemTemplate ));
+                me.itemViews.push( createItemView(activity, me.itemTemplate ));
             });
 
             this.collection.bind("add", this.add);

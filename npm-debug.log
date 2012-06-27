@@ -1,0 +1,2211 @@
+info it worked if it ends with ok
+verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+verbose cli   'install',
+verbose cli   'jitsu' ]
+info using npm@1.1.24
+info using node@v0.6.19
+verbose C:\Program Files (x86)\nodejs\\node.exe node symlink
+verbose config file C:\Users\grs1\.npmrc
+verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+verbose cache add [ 'jitsu', null ]
+silly cache add: name, spec, args [ undefined, 'jitsu', [ 'jitsu', null ] ]
+verbose parsed url { pathname: 'jitsu', path: 'jitsu', href: 'jitsu' }
+verbose addNamed [ 'jitsu', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'jitsu', '', false ]
+verbose raw, before any munging jitsu
+verbose url resolving [ 'https://registry.npmjs.org/', './jitsu' ]
+verbose url resolved https://registry.npmjs.org/jitsu
+verbose etag "89ZJ39A6T6WFZFRYHEKRZJECI"
+http GET https://registry.npmjs.org/jitsu
+http 304 https://registry.npmjs.org/jitsu
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"89ZJ39A6T6WFZFRYHEKRZJECI"',
+silly get cb     date: 'Tue, 26 Jun 2012 02:16:47 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag jitsu from cache
+silly name, range, hasData 2 [ 'jitsu', '', true ]
+silly versions [ 'jitsu',
+silly versions   [ '0.4.14',
+silly versions     '0.4.15',
+silly versions     '0.4.16',
+silly versions     '0.5.0',
+silly versions     '0.5.0-1',
+silly versions     '0.6.0',
+silly versions     '0.6.1',
+silly versions     '0.6.1-1',
+silly versions     '0.6.2',
+silly versions     '0.6.3',
+silly versions     '0.7.0',
+silly versions     '0.7.0-1',
+silly versions     '0.7.0-2',
+silly versions     '0.7.1',
+silly versions     '0.7.2',
+silly versions     '0.7.2-1',
+silly versions     '0.7.3',
+silly versions     '0.7.4',
+silly versions     '0.7.4-1',
+silly versions     '0.7.5',
+silly versions     '0.7.6',
+silly versions     '0.7.6-1',
+silly versions     '0.7.7',
+silly versions     '0.7.7-1',
+silly versions     '0.7.7-2',
+silly versions     '0.7.100',
+silly versions     '0.8.0',
+silly versions     '0.8.1',
+silly versions     '0.8.2',
+silly versions     '0.8.2-1',
+silly versions     '0.8.3',
+silly versions     '0.8.4',
+silly versions     '0.8.4-1',
+silly versions     '0.8.5',
+silly versions     '0.8.5-1',
+silly versions     '0.8.6',
+silly versions     '0.8.7',
+silly versions     '0.8.8' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'cd303d2b028a99558b47b51fb8337ded3658e29f',
+verbose bin dist     tarball: 'http://registry.npmjs.org/jitsu/-/jitsu-0.8.8.tgz' } ]
+verbose caching C:\Users\grs1\AppData\Roaming\npm-cache\jitsu\0.8.8\package\package.json
+verbose loadDefaults jitsu@0.8.8
+silly resolved [ { name: 'jitsu',
+silly resolved     description: 'Flawless command line deployment of your Node.js apps to the cloud',
+silly resolved     keywords: 
+silly resolved      [ 'cli',
+silly resolved        'nodejitsu',
+silly resolved        'cloud hosting',
+silly resolved        'platform-as-a-service',
+silly resolved        'deployment' ],
+silly resolved     version: '0.8.8',
+silly resolved     author: { name: 'Nodejitsu Inc.', email: 'info@nodejitsu.com' },
+silly resolved     maintainers: 
+silly resolved      [ { name: 'AvianFlu', email: 'avianflu@nodejitsu.com' },
+silly resolved        { name: 'Marak', email: 'marak@nodejitsu.com' } ],
+silly resolved     repository: { type: 'git', url: 'git://github.com/nodejitsu/jitsu.git' },
+silly resolved     preferGlobal: true,
+silly resolved     dependencies: 
+silly resolved      { colors: '0.6.0-1',
+silly resolved        dateformat: '1.0.2-1.2.3',
+silly resolved        flatiron: '0.1.16',
+silly resolved        'flatiron-cli-config': '0.1.1',
+silly resolved        'flatiron-cli-users': '0.1.1',
+silly resolved        npm: '1.1.16',
+silly resolved        'nodejitsu-api': '0.2.6',
+silly resolved        pkginfo: '0.2.2',
+silly resolved        request: '2.9.100',
+silly resolved        'require-analyzer': '0.4.0-3',
+silly resolved        semver: '1.0.13',
+silly resolved        complete: '0.3.x' },
+silly resolved     devDependencies: { nock: '0.8.x', vows: '0.6.x' },
+silly resolved     bin: { jitsu: './bin/jitsu' },
+silly resolved     main: './lib/jitsu',
+silly resolved     scripts: { test: 'vows test/commands/*-test.js --spec' },
+silly resolved     engines: { node: '>= 0.4.0' },
+silly resolved     _id: 'jitsu@0.8.8',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.24',
+silly resolved     _nodeVersion: 'v0.6.19',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'jitsu' } ]
+info into C:\Users\grs1\Documents\git\itemlist jitsu@0.8.8
+info installOne jitsu@0.8.8
+verbose from cache C:\Users\grs1\AppData\Roaming\npm-cache\jitsu\0.8.8\package\package.json
+info unbuild C:\Users\grs1\Documents\git\itemlist\node_modules\jitsu
+verbose unpack C:\Users\grs1\AppData\Roaming\npm-cache\jitsu\0.8.8\package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry .npmignore
+silly modified mode [ '.npmignore', 438, 420 ]
+silly extracting entry README.md
+silly modified mode [ 'README.md', 438, 420 ]
+silly extracting entry .travis.yml
+silly modified mode [ '.travis.yml', 438, 420 ]
+silly extracting entry assets/jitsu.png
+silly modified mode [ 'assets/jitsu.png', 438, 420 ]
+silly extracting entry assets/login.png
+silly modified mode [ 'assets/login.png', 438, 420 ]
+silly extracting entry bin/jitsu
+silly modified mode [ 'bin/jitsu', 438, 420 ]
+silly extracting entry docs/docco.css
+silly modified mode [ 'docs/docco.css', 438, 420 ]
+silly extracting entry docs/jitsu/api/apps.html
+silly modified mode [ 'docs/jitsu/api/apps.html', 438, 420 ]
+silly extracting entry docs/jitsu/api/client.html
+silly modified mode [ 'docs/jitsu/api/client.html', 438, 420 ]
+silly extracting entry docs/jitsu/api/snapshots.html
+silly modified mode [ 'docs/jitsu/api/snapshots.html', 438, 420 ]
+silly extracting entry docs/jitsu/api/users.html
+silly modified mode [ 'docs/jitsu/api/users.html', 438, 420 ]
+silly extracting entry docs/jitsu/commands/apps.html
+silly modified mode [ 'docs/jitsu/commands/apps.html', 438, 420 ]
+silly extracting entry docs/jitsu/commands/config.html
+silly modified mode [ 'docs/jitsu/commands/config.html', 438, 420 ]
+silly extracting entry docs/jitsu/commands/help.html
+silly modified mode [ 'docs/jitsu/commands/help.html', 438, 420 ]
+silly extracting entry docs/jitsu/commands/package.html
+silly modified mode [ 'docs/jitsu/commands/package.html', 438, 420 ]
+silly extracting entry docs/jitsu/commands/snapshots.html
+silly modified mode [ 'docs/jitsu/commands/snapshots.html', 438, 420 ]
+silly extracting entry docs/jitsu/commands/users.html
+silly modified mode [ 'docs/jitsu/commands/users.html', 438, 420 ]
+silly extracting entry docs/jitsu/commands.html
+silly modified mode [ 'docs/jitsu/commands.html', 438, 420 ]
+silly extracting entry docs/jitsu/config.html
+silly modified mode [ 'docs/jitsu/config.html', 438, 420 ]
+silly extracting entry docs/jitsu/package.html
+silly modified mode [ 'docs/jitsu/package.html', 438, 420 ]
+silly extracting entry docs/jitsu/properties.html
+silly modified mode [ 'docs/jitsu/properties.html', 438, 420 ]
+silly extracting entry docs/jitsu/utils/base64.html
+silly modified mode [ 'docs/jitsu/utils/base64.html', 438, 420 ]
+silly extracting entry docs/jitsu/utils/index.html
+silly modified mode [ 'docs/jitsu/utils/index.html', 438, 420 ]
+silly extracting entry docs/jitsu.html
+silly modified mode [ 'docs/jitsu.html', 438, 420 ]
+silly extracting entry lib/jitsu.js
+silly modified mode [ 'lib/jitsu.js', 438, 420 ]
+silly extracting entry lib/jitsu/alias.js
+silly modified mode [ 'lib/jitsu/alias.js', 438, 420 ]
+silly extracting entry lib/jitsu/commands.js
+silly modified mode [ 'lib/jitsu/commands.js', 438, 420 ]
+silly extracting entry lib/jitsu/completion.js
+silly modified mode [ 'lib/jitsu/completion.js', 438, 420 ]
+silly extracting entry lib/jitsu/config.js
+silly modified mode [ 'lib/jitsu/config.js', 438, 420 ]
+silly extracting entry lib/jitsu/package.js
+silly modified mode [ 'lib/jitsu/package.js', 438, 420 ]
+silly extracting entry lib/jitsu/properties.js
+silly modified mode [ 'lib/jitsu/properties.js', 438, 420 ]
+silly extracting entry lib/jitsu/usage.js
+silly modified mode [ 'lib/jitsu/usage.js', 438, 420 ]
+silly extracting entry lib/jitsu/commands/apps.js
+silly modified mode [ 'lib/jitsu/commands/apps.js', 438, 420 ]
+silly extracting entry lib/jitsu/commands/databases.js
+silly modified mode [ 'lib/jitsu/commands/databases.js', 438, 420 ]
+silly extracting entry lib/jitsu/commands/env.js
+silly modified mode [ 'lib/jitsu/commands/env.js', 438, 420 ]
+silly extracting entry lib/jitsu/commands/install.js
+silly modified mode [ 'lib/jitsu/commands/install.js', 438, 420 ]
+silly extracting entry lib/jitsu/commands/logs.js
+silly modified mode [ 'lib/jitsu/commands/logs.js', 438, 420 ]
+silly extracting entry lib/jitsu/commands/package.js
+silly modified mode [ 'lib/jitsu/commands/package.js', 438, 420 ]
+silly extracting entry lib/jitsu/commands/snapshots.js
+silly modified mode [ 'lib/jitsu/commands/snapshots.js', 438, 420 ]
+silly extracting entry lib/jitsu/commands/users.js
+silly modified mode [ 'lib/jitsu/commands/users.js', 438, 420 ]
+silly extracting entry lib/jitsu/commands/wizard.js
+silly modified mode [ 'lib/jitsu/commands/wizard.js', 438, 420 ]
+silly extracting entry lib/jitsu/common/index.js
+silly modified mode [ 'lib/jitsu/common/index.js', 438, 420 ]
+silly extracting entry lib/jitsu/common/logfile.js
+silly modified mode [ 'lib/jitsu/common/logfile.js', 438, 420 ]
+silly extracting entry test/commands/apps-test.js
+silly modified mode [ 'test/commands/apps-test.js', 438, 420 ]
+silly extracting entry test/commands/bad-test.js
+silly modified mode [ 'test/commands/bad-test.js', 438, 420 ]
+silly extracting entry test/commands/databases-test.js
+silly modified mode [ 'test/commands/databases-test.js', 438, 420 ]
+silly extracting entry test/commands/env-test.js
+silly modified mode [ 'test/commands/env-test.js', 438, 420 ]
+silly extracting entry test/commands/logs-test.js
+silly modified mode [ 'test/commands/logs-test.js', 438, 420 ]
+silly extracting entry test/commands/no-colors-test.js
+silly modified mode [ 'test/commands/no-colors-test.js', 438, 420 ]
+silly extracting entry test/commands/package-test.js
+silly modified mode [ 'test/commands/package-test.js', 438, 420 ]
+silly extracting entry test/commands/snapshots-test.js
+silly modified mode [ 'test/commands/snapshots-test.js', 438, 420 ]
+silly extracting entry test/commands/users-test.js
+silly modified mode [ 'test/commands/users-test.js', 438, 420 ]
+silly extracting entry test/fixtures/dot-jitsuconf
+silly modified mode [ 'test/fixtures/dot-jitsuconf', 438, 420 ]
+silly extracting entry test/fixtures/example-app/package.json
+silly modified mode [ 'test/fixtures/example-app/package.json', 438, 420 ]
+silly extracting entry test/fixtures/example-app/server.js
+silly modified mode [ 'test/fixtures/example-app/server.js', 438, 420 ]
+silly extracting entry test/fixtures/logged-out-jitsuconf
+silly modified mode [ 'test/fixtures/logged-out-jitsuconf', 438, 420 ]
+silly extracting entry test/helpers/macros.js
+silly modified mode [ 'test/helpers/macros.js', 438, 420 ]
+verbose caching C:\Users\grs1\Documents\git\itemlist\node_modules\jitsu\package.json
+verbose loadDefaults jitsu@0.8.8
+info preinstall jitsu@0.8.8
+verbose from cache C:\Users\grs1\Documents\git\itemlist\node_modules\jitsu\package.json
+verbose readDependencies: using package.json deps
+verbose from cache C:\Users\grs1\Documents\git\itemlist\node_modules\jitsu\package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'dateformat@1.0.2-1.2.3', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'dateformat@1.0.2-1.2.3',
+silly cache add: name, spec, args   [ 'dateformat@1.0.2-1.2.3', null ] ]
+verbose parsed url { pathname: 'dateformat@1.0.2-1.2.3',
+verbose parsed url   path: 'dateformat@1.0.2-1.2.3',
+verbose parsed url   href: 'dateformat@1.0.2-1.2.3' }
+silly cache add: name, spec, args [ 'dateformat', '1.0.2-1.2.3', [ 'dateformat', '1.0.2-1.2.3' ] ]
+verbose parsed url { pathname: '1.0.2-1.2.3',
+verbose parsed url   path: '1.0.2-1.2.3',
+verbose parsed url   href: '1.0.2-1.2.3' }
+verbose addNamed [ 'dateformat', '1.0.2-1.2.3' ]
+verbose addNamed [ '1.0.2-1.2.3', '1.0.2-1.2.3' ]
+verbose cache add [ 'flatiron@0.1.16', null ]
+silly cache add: name, spec, args [ undefined, 'flatiron@0.1.16', [ 'flatiron@0.1.16', null ] ]
+verbose parsed url { pathname: 'flatiron@0.1.16',
+verbose parsed url   path: 'flatiron@0.1.16',
+verbose parsed url   href: 'flatiron@0.1.16' }
+silly cache add: name, spec, args [ 'flatiron', '0.1.16', [ 'flatiron', '0.1.16' ] ]
+verbose parsed url { pathname: '0.1.16', path: '0.1.16', href: '0.1.16' }
+verbose addNamed [ 'flatiron', '0.1.16' ]
+verbose addNamed [ '0.1.16', '0.1.16' ]
+verbose cache add [ 'flatiron-cli-config@0.1.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'flatiron-cli-config@0.1.1',
+silly cache add: name, spec, args   [ 'flatiron-cli-config@0.1.1', null ] ]
+verbose parsed url { pathname: 'flatiron-cli-config@0.1.1',
+verbose parsed url   path: 'flatiron-cli-config@0.1.1',
+verbose parsed url   href: 'flatiron-cli-config@0.1.1' }
+silly cache add: name, spec, args [ 'flatiron-cli-config',
+silly cache add: name, spec, args   '0.1.1',
+silly cache add: name, spec, args   [ 'flatiron-cli-config', '0.1.1' ] ]
+verbose parsed url { pathname: '0.1.1', path: '0.1.1', href: '0.1.1' }
+verbose addNamed [ 'flatiron-cli-config', '0.1.1' ]
+verbose addNamed [ '0.1.1', '0.1.1' ]
+verbose cache add [ 'flatiron-cli-users@0.1.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'flatiron-cli-users@0.1.1',
+silly cache add: name, spec, args   [ 'flatiron-cli-users@0.1.1', null ] ]
+verbose parsed url { pathname: 'flatiron-cli-users@0.1.1',
+verbose parsed url   path: 'flatiron-cli-users@0.1.1',
+verbose parsed url   href: 'flatiron-cli-users@0.1.1' }
+silly cache add: name, spec, args [ 'flatiron-cli-users',
+silly cache add: name, spec, args   '0.1.1',
+silly cache add: name, spec, args   [ 'flatiron-cli-users', '0.1.1' ] ]
+verbose parsed url { pathname: '0.1.1', path: '0.1.1', href: '0.1.1' }
+verbose addNamed [ 'flatiron-cli-users', '0.1.1' ]
+verbose addNamed [ '0.1.1', '0.1.1' ]
+verbose cache add [ 'npm@1.1.16', null ]
+silly cache add: name, spec, args [ undefined, 'npm@1.1.16', [ 'npm@1.1.16', null ] ]
+verbose parsed url { pathname: 'npm@1.1.16',
+verbose parsed url   path: 'npm@1.1.16',
+verbose parsed url   href: 'npm@1.1.16' }
+silly cache add: name, spec, args [ 'npm', '1.1.16', [ 'npm', '1.1.16' ] ]
+verbose parsed url { pathname: '1.1.16', path: '1.1.16', href: '1.1.16' }
+verbose addNamed [ 'npm', '1.1.16' ]
+verbose addNamed [ '1.1.16', '1.1.16' ]
+verbose cache add [ 'nodejitsu-api@0.2.6', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'nodejitsu-api@0.2.6',
+silly cache add: name, spec, args   [ 'nodejitsu-api@0.2.6', null ] ]
+verbose parsed url { pathname: 'nodejitsu-api@0.2.6',
+verbose parsed url   path: 'nodejitsu-api@0.2.6',
+verbose parsed url   href: 'nodejitsu-api@0.2.6' }
+silly cache add: name, spec, args [ 'nodejitsu-api', '0.2.6', [ 'nodejitsu-api', '0.2.6' ] ]
+verbose parsed url { pathname: '0.2.6', path: '0.2.6', href: '0.2.6' }
+verbose addNamed [ 'nodejitsu-api', '0.2.6' ]
+verbose addNamed [ '0.2.6', '0.2.6' ]
+verbose cache add [ 'pkginfo@0.2.2', null ]
+silly cache add: name, spec, args [ undefined, 'pkginfo@0.2.2', [ 'pkginfo@0.2.2', null ] ]
+verbose parsed url { pathname: 'pkginfo@0.2.2',
+verbose parsed url   path: 'pkginfo@0.2.2',
+verbose parsed url   href: 'pkginfo@0.2.2' }
+silly cache add: name, spec, args [ 'pkginfo', '0.2.2', [ 'pkginfo', '0.2.2' ] ]
+verbose parsed url { pathname: '0.2.2', path: '0.2.2', href: '0.2.2' }
+verbose addNamed [ 'pkginfo', '0.2.2' ]
+verbose addNamed [ '0.2.2', '0.2.2' ]
+verbose cache add [ 'request@2.9.100', null ]
+silly cache add: name, spec, args [ undefined, 'request@2.9.100', [ 'request@2.9.100', null ] ]
+verbose parsed url { pathname: 'request@2.9.100',
+verbose parsed url   path: 'request@2.9.100',
+verbose parsed url   href: 'request@2.9.100' }
+silly cache add: name, spec, args [ 'request', '2.9.100', [ 'request', '2.9.100' ] ]
+verbose parsed url { pathname: '2.9.100', path: '2.9.100', href: '2.9.100' }
+verbose addNamed [ 'request', '2.9.100' ]
+verbose addNamed [ '2.9.100', '2.9.100' ]
+verbose cache add [ 'require-analyzer@0.4.0-3', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'require-analyzer@0.4.0-3',
+silly cache add: name, spec, args   [ 'require-analyzer@0.4.0-3', null ] ]
+verbose parsed url { pathname: 'require-analyzer@0.4.0-3',
+verbose parsed url   path: 'require-analyzer@0.4.0-3',
+verbose parsed url   href: 'require-analyzer@0.4.0-3' }
+silly cache add: name, spec, args [ 'require-analyzer',
+silly cache add: name, spec, args   '0.4.0-3',
+silly cache add: name, spec, args   [ 'require-analyzer', '0.4.0-3' ] ]
+verbose parsed url { pathname: '0.4.0-3', path: '0.4.0-3', href: '0.4.0-3' }
+verbose addNamed [ 'require-analyzer', '0.4.0-3' ]
+verbose addNamed [ '0.4.0-3', '0.4.0-3' ]
+verbose cache add [ 'semver@1.0.13', null ]
+silly cache add: name, spec, args [ undefined, 'semver@1.0.13', [ 'semver@1.0.13', null ] ]
+verbose parsed url { pathname: 'semver@1.0.13',
+verbose parsed url   path: 'semver@1.0.13',
+verbose parsed url   href: 'semver@1.0.13' }
+silly cache add: name, spec, args [ 'semver', '1.0.13', [ 'semver', '1.0.13' ] ]
+verbose parsed url { pathname: '1.0.13', path: '1.0.13', href: '1.0.13' }
+verbose addNamed [ 'semver', '1.0.13' ]
+verbose addNamed [ '1.0.13', '1.0.13' ]
+verbose cache add [ 'complete@0.3.x', null ]
+silly cache add: name, spec, args [ undefined, 'complete@0.3.x', [ 'complete@0.3.x', null ] ]
+verbose parsed url { pathname: 'complete@0.3.x',
+verbose parsed url   path: 'complete@0.3.x',
+verbose parsed url   href: 'complete@0.3.x' }
+silly cache add: name, spec, args [ 'complete', '0.3.x', [ 'complete', '0.3.x' ] ]
+verbose parsed url { pathname: '0.3.x', path: '0.3.x', href: '0.3.x' }
+verbose addNamed [ 'complete', '0.3.x' ]
+verbose addNamed [ null, '>=0.3.0- <0.4.0-' ]
+silly name, range, hasData [ 'complete', '>=0.3.0- <0.4.0-', false ]
+verbose cache add [ 'colors@0.6.0-1', null ]
+silly cache add: name, spec, args [ undefined, 'colors@0.6.0-1', [ 'colors@0.6.0-1', null ] ]
+verbose parsed url { pathname: 'colors@0.6.0-1',
+verbose parsed url   path: 'colors@0.6.0-1',
+verbose parsed url   href: 'colors@0.6.0-1' }
+silly cache add: name, spec, args [ 'colors', '0.6.0-1', [ 'colors', '0.6.0-1' ] ]
+verbose parsed url { pathname: '0.6.0-1', path: '0.6.0-1', href: '0.6.0-1' }
+verbose addNamed [ 'colors', '0.6.0-1' ]
+verbose addNamed [ '0.6.0-1', '0.6.0-1' ]
+verbose raw, before any munging dateformat/1.0.2-1.2.3
+verbose url resolving [ 'https://registry.npmjs.org/', './dateformat/1.0.2-1.2.3' ]
+verbose url resolved https://registry.npmjs.org/dateformat/1.0.2-1.2.3
+verbose etag "91DNRGDD5PENCJ6P8TLER0ZOH"
+http GET https://registry.npmjs.org/dateformat/1.0.2-1.2.3
+verbose raw, before any munging flatiron/0.1.16
+verbose url resolving [ 'https://registry.npmjs.org/', './flatiron/0.1.16' ]
+verbose url resolved https://registry.npmjs.org/flatiron/0.1.16
+verbose etag "D9IU273MVZLSU38JIY9SW10H3"
+http GET https://registry.npmjs.org/flatiron/0.1.16
+verbose raw, before any munging flatiron-cli-config/0.1.1
+verbose url resolving [ 'https://registry.npmjs.org/', './flatiron-cli-config/0.1.1' ]
+verbose url resolved https://registry.npmjs.org/flatiron-cli-config/0.1.1
+verbose etag "7B08B22I79J1IGAJ8U7CMS316"
+http GET https://registry.npmjs.org/flatiron-cli-config/0.1.1
+verbose raw, before any munging flatiron-cli-users/0.1.1
+verbose url resolving [ 'https://registry.npmjs.org/', './flatiron-cli-users/0.1.1' ]
+verbose url resolved https://registry.npmjs.org/flatiron-cli-users/0.1.1
+verbose etag "MVANI3X6PFVV9OB6ADAPKBRK"
+http GET https://registry.npmjs.org/flatiron-cli-users/0.1.1
+verbose raw, before any munging npm/1.1.16
+verbose url resolving [ 'https://registry.npmjs.org/', './npm/1.1.16' ]
+verbose url resolved https://registry.npmjs.org/npm/1.1.16
+verbose etag "9ZX9KU3YBCJ4NAOJ1UGK6MG20"
+http GET https://registry.npmjs.org/npm/1.1.16
+verbose raw, before any munging pkginfo/0.2.2
+verbose url resolving [ 'https://registry.npmjs.org/', './pkginfo/0.2.2' ]
+verbose url resolved https://registry.npmjs.org/pkginfo/0.2.2
+verbose etag "17X3EC9Z72XUK0F4CX343WVV4"
+http GET https://registry.npmjs.org/pkginfo/0.2.2
+verbose raw, before any munging require-analyzer/0.4.0-3
+verbose url resolving [ 'https://registry.npmjs.org/', './require-analyzer/0.4.0-3' ]
+verbose url resolved https://registry.npmjs.org/require-analyzer/0.4.0-3
+verbose etag "APHUMI5KM2OGNO0HCMDQMCFK1"
+http GET https://registry.npmjs.org/require-analyzer/0.4.0-3
+verbose raw, before any munging request/2.9.100
+verbose url resolving [ 'https://registry.npmjs.org/', './request/2.9.100' ]
+verbose url resolved https://registry.npmjs.org/request/2.9.100
+verbose etag "1U5D7F0FC1AGDTJ0JXL35FPT7"
+http GET https://registry.npmjs.org/request/2.9.100
+verbose raw, before any munging semver/1.0.13
+verbose url resolving [ 'https://registry.npmjs.org/', './semver/1.0.13' ]
+verbose url resolved https://registry.npmjs.org/semver/1.0.13
+verbose etag "CKUOB7DPBWO53OLOEAL59KEMJ"
+http GET https://registry.npmjs.org/semver/1.0.13
+verbose raw, before any munging complete
+verbose url resolving [ 'https://registry.npmjs.org/', './complete' ]
+verbose url resolved https://registry.npmjs.org/complete
+verbose etag "32609GZ2DYKC5OTVNWNWZS4T5"
+http GET https://registry.npmjs.org/complete
+verbose raw, before any munging colors/0.6.0-1
+verbose url resolving [ 'https://registry.npmjs.org/', './colors/0.6.0-1' ]
+verbose url resolved https://registry.npmjs.org/colors/0.6.0-1
+verbose etag "93P026D41YKFWKCBETBOZ2FIA"
+http GET https://registry.npmjs.org/colors/0.6.0-1
+verbose raw, before any munging nodejitsu-api/0.2.6
+verbose url resolving [ 'https://registry.npmjs.org/', './nodejitsu-api/0.2.6' ]
+verbose url resolved https://registry.npmjs.org/nodejitsu-api/0.2.6
+verbose etag "2Z8ZZ4LTTJHCQ74TF6B26N19S"
+http GET https://registry.npmjs.org/nodejitsu-api/0.2.6
+http 304 https://registry.npmjs.org/flatiron-cli-config/0.1.1
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"7B08B22I79J1IGAJ8U7CMS316"',
+silly get cb     date: 'Tue, 26 Jun 2012 02:16:50 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag flatiron-cli-config/0.1.1 from cache
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '9a81ef33c1c6ab56f9b6562a7d87a4b0b41e13d8',
+verbose bin dist     tarball: 'http://registry.npmjs.org/flatiron-cli-config/-/flatiron-cli-config-0.1.1.tgz' } ]
+verbose caching C:\Users\grs1\AppData\Roaming\npm-cache\flatiron-cli-config\0.1.1\package\package.json
+verbose loadDefaults flatiron-cli-config@0.1.1
+http 304 https://registry.npmjs.org/npm/1.1.16
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"9ZX9KU3YBCJ4NAOJ1UGK6MG20"',
+silly get cb     date: 'Tue, 26 Jun 2012 02:16:50 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag npm/1.1.16 from cache
+http 304 https://registry.npmjs.org/dateformat/1.0.2-1.2.3
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"91DNRGDD5PENCJ6P8TLER0ZOH"',
+silly get cb     date: 'Tue, 26 Jun 2012 02:16:50 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag dateformat/1.0.2-1.2.3 from cache
+http 304 https://registry.npmjs.org/flatiron/0.1.16
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"D9IU273MVZLSU38JIY9SW10H3"',
+silly get cb     date: 'Tue, 26 Jun 2012 02:16:50 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag flatiron/0.1.16 from cache
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'b0220c02de98617433b72851cf47de3df2cdbee9',
+verbose bin dist     tarball: 'http://registry.npmjs.org/dateformat/-/dateformat-1.0.2-1.2.3.tgz' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '605c7bbcc492d91db9b6d90e31199f37bb002456',
+verbose bin dist     tarball: 'http://registry.npmjs.org/flatiron/-/flatiron-0.1.16.tgz' } ]
+verbose caching C:\Users\grs1\AppData\Roaming\npm-cache\dateformat\1.0.2-1.2.3\package\package.json
+verbose loadDefaults dateformat@1.0.2-1.2.3
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '7f62b41de44e11d702b712855777ec7fa0583384',
+verbose bin dist     tarball: 'http://registry.npmjs.org/npm/-/npm-1.1.16.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/npm/-/npm-1.1.16.tgz',
+verbose addRemoteTarball   '7f62b41de44e11d702b712855777ec7fa0583384' ]
+verbose caching C:\Users\grs1\AppData\Roaming\npm-cache\flatiron\0.1.16\package\package.json
+verbose loadDefaults flatiron@0.1.16
+verbose fetch to C:\Users\grs1\AppData\Local\Temp\npm-1340677014814\1340677014814-0.5654315715655684\tmp.tgz
+http GET https://registry.npmjs.org/npm/-/npm-1.1.16.tgz
+http 304 https://registry.npmjs.org/pkginfo/0.2.2
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"17X3EC9Z72XUK0F4CX343WVV4"',
+silly get cb     date: 'Tue, 26 Jun 2012 02:16:50 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag pkginfo/0.2.2 from cache
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '97e1100dbbb275ff6fab583a256a7eea85120c8e',
+verbose bin dist     tarball: 'http://registry.npmjs.org/pkginfo/-/pkginfo-0.2.2.tgz' } ]
+verbose caching C:\Users\grs1\AppData\Roaming\npm-cache\pkginfo\0.2.2\package\package.json
+verbose loadDefaults pkginfo@0.2.2
+http 304 https://registry.npmjs.org/semver/1.0.13
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"CKUOB7DPBWO53OLOEAL59KEMJ"',
+silly get cb     date: 'Tue, 26 Jun 2012 02:16:50 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag semver/1.0.13 from cache
+http 304 https://registry.npmjs.org/request/2.9.100
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"1U5D7F0FC1AGDTJ0JXL35FPT7"',
+silly get cb     date: 'Tue, 26 Jun 2012 02:16:50 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag request/2.9.100 from cache
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '9512ce1392105e72a0b739b27f39e0242913d07e',
+verbose bin dist     tarball: 'http://registry.npmjs.org/semver/-/semver-1.0.13.tgz' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'c9900a6cc8576b8400a82161a6268962f3d09b78',
+verbose bin dist     tarball: 'http://registry.npmjs.org/request/-/request-2.9.100.tgz' } ]
+verbose caching C:\Users\grs1\AppData\Roaming\npm-cache\semver\1.0.13\package\package.json
+verbose loadDefaults semver@1.0.13
+verbose caching C:\Users\grs1\AppData\Roaming\npm-cache\request\2.9.100\package\package.json
+verbose loadDefaults request@2.9.100
+http 304 https://registry.npmjs.org/complete
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"32609GZ2DYKC5OTVNWNWZS4T5"',
+silly get cb     date: 'Tue, 26 Jun 2012 02:16:50 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag complete from cache
+silly name, range, hasData 2 [ 'complete', '>=0.3.0- <0.4.0-', true ]
+silly versions [ 'complete',
+silly versions   [ '0.0.1', '0.1.0', '0.1.1', '0.2.0', '0.3.0', '0.3.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '9950ac77d1ac4991a9dcc782b33dfae253bf8bda',
+verbose bin dist     tarball: 'http://registry.npmjs.org/complete/-/complete-0.3.1.tgz' } ]
+verbose caching C:\Users\grs1\AppData\Roaming\npm-cache\complete\0.3.1\package\package.json
+verbose loadDefaults complete@0.3.1
+http 304 https://registry.npmjs.org/colors/0.6.0-1
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"93P026D41YKFWKCBETBOZ2FIA"',
+silly get cb     date: 'Tue, 26 Jun 2012 02:16:50 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag colors/0.6.0-1 from cache
+http 304 https://registry.npmjs.org/nodejitsu-api/0.2.6
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"2Z8ZZ4LTTJHCQ74TF6B26N19S"',
+silly get cb     date: 'Tue, 26 Jun 2012 02:16:50 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag nodejitsu-api/0.2.6 from cache
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'b1be3baa226f8fb7fe607d062dc1bc92ff9c29d5',
+verbose bin dist     tarball: 'http://registry.npmjs.org/nodejitsu-api/-/nodejitsu-api-0.2.6.tgz' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '6dbb68ceb8bc60f2b313dcc5ce1599f06d19e67a',
+verbose bin dist     tarball: 'http://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz' } ]
+verbose caching C:\Users\grs1\AppData\Roaming\npm-cache\nodejitsu-api\0.2.6\package\package.json
+verbose loadDefaults nodejitsu-api@0.2.6
+verbose caching C:\Users\grs1\AppData\Roaming\npm-cache\colors\0.6.0-1\package\package.json
+verbose loadDefaults colors@0.6.0-1
+http 200 https://registry.npmjs.org/npm/-/npm-1.1.16.tgz
+http 304 https://registry.npmjs.org/flatiron-cli-users/0.1.1
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"MVANI3X6PFVV9OB6ADAPKBRK"',
+silly get cb     date: 'Tue, 26 Jun 2012 02:16:50 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag flatiron-cli-users/0.1.1 from cache
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '0e81702cc727dbf56a5547b9b30e9ef9ab14a6a1',
+verbose bin dist     tarball: 'http://registry.npmjs.org/flatiron-cli-users/-/flatiron-cli-users-0.1.1.tgz' } ]
+verbose caching C:\Users\grs1\AppData\Roaming\npm-cache\flatiron-cli-users\0.1.1\package\package.json
+verbose loadDefaults flatiron-cli-users@0.1.1
+http 304 https://registry.npmjs.org/require-analyzer/0.4.0-3
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"APHUMI5KM2OGNO0HCMDQMCFK1"',
+silly get cb     date: 'Tue, 26 Jun 2012 02:16:50 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag require-analyzer/0.4.0-3 from cache
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '877c032f5e1aee5608e726a01664b9e9283c446c',
+verbose bin dist     tarball: 'http://registry.npmjs.org/require-analyzer/-/require-analyzer-0.4.0-3.tgz' } ]
+verbose caching C:\Users\grs1\AppData\Roaming\npm-cache\require-analyzer\0.4.0-3\package\package.json
+verbose loadDefaults require-analyzer@0.4.0-3
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 38128
+info shasum 7f62b41de44e11d702b712855777ec7fa0583384
+info shasum C:\Users\grs1\AppData\Local\Temp\npm-1340677014814\1340677014814-0.5654315715655684\tmp.tgz
+verbose unpack C:\Users\grs1\AppData\Local\Temp\npm-1340677014814\1340677014814-0.5654315715655684\tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry LICENSE
+silly extracting entry cli.js
+silly extracting entry configure
+silly extracting entry doc/api/prune.md
+silly extracting entry doc/api/bin.md
+silly extracting entry doc/api/commands.md
+silly extracting entry doc/api/config.md
+silly extracting entry doc/api/deprecate.md
+silly extracting entry doc/api/docs.md
+silly extracting entry doc/api/edit.md
+silly extracting entry doc/api/explore.md
+silly extracting entry doc/api/help-search.md
+silly extracting entry doc/api/init.md
+silly extracting entry doc/api/install.md
+silly extracting entry doc/api/link.md
+silly extracting entry doc/api/load.md
+silly extracting entry doc/api/ls.md
+silly extracting entry doc/api/npm.md
+silly extracting entry doc/api/outdated.md
+silly extracting entry doc/api/owner.md
+silly extracting entry doc/api/pack.md
+silly extracting entry doc/api/prefix.md
+silly extracting entry doc/api/bugs.md
+silly extracting entry doc/api/publish.md
+silly extracting entry doc/api/rebuild.md
+silly extracting entry doc/api/restart.md
+silly extracting entry doc/api/root.md
+silly extracting entry doc/api/run-script.md
+silly extracting entry doc/api/search.md
+silly extracting entry doc/api/shrinkwrap.md
+silly extracting entry doc/api/start.md
+silly extracting entry doc/api/stop.md
+silly extracting entry doc/api/submodule.md
+silly extracting entry doc/api/tag.md
+silly extracting entry doc/api/test.md
+silly extracting entry doc/api/uninstall.md
+silly extracting entry doc/api/unpublish.md
+silly extracting entry doc/api/update.md
+silly extracting entry doc/api/version.md
+silly extracting entry doc/api/view.md
+silly extracting entry doc/api/whoami.md
+silly extracting entry doc/cli/outdated.md
+silly extracting entry doc/cli/adduser.md
+silly extracting entry doc/cli/bugs.md
+silly extracting entry doc/cli/build.md
+silly extracting entry doc/cli/bundle.md
+silly extracting entry doc/cli/cache.md
+silly extracting entry doc/cli/changelog.md
+silly extracting entry doc/cli/coding-style.md
+silly extracting entry doc/cli/completion.md
+silly extracting entry doc/cli/config.md
+silly extracting entry doc/cli/deprecate.md
+silly extracting entry doc/cli/developers.md
+silly extracting entry doc/cli/disputes.md
+silly extracting entry doc/cli/docs.md
+silly extracting entry doc/cli/edit.md
+silly extracting entry doc/cli/explore.md
+silly extracting entry doc/cli/faq.md
+silly extracting entry doc/cli/folders.md
+silly extracting entry doc/cli/help-search.md
+silly extracting entry doc/cli/help.md
+silly extracting entry doc/cli/index.md
+silly extracting entry doc/cli/init.md
+silly extracting entry doc/cli/install.md
+silly extracting entry doc/cli/json.md
+silly extracting entry doc/cli/link.md
+silly extracting entry doc/cli/list.md
+silly extracting entry doc/cli/npm.md
+silly extracting entry doc/cli/bin.md
+silly extracting entry doc/cli/owner.md
+silly extracting entry doc/cli/pack.md
+silly extracting entry doc/cli/prefix.md
+silly extracting entry doc/cli/prune.md
+silly extracting entry doc/cli/publish.md
+silly extracting entry doc/cli/rebuild.md
+silly extracting entry doc/cli/registry.md
+silly extracting entry doc/cli/removing-npm.md
+silly extracting entry doc/cli/restart.md
+silly extracting entry doc/cli/root.md
+silly extracting entry doc/cli/run-script.md
+silly extracting entry doc/cli/scripts.md
+silly extracting entry doc/cli/search.md
+silly extracting entry doc/cli/semver.md
+silly extracting entry doc/cli/shrinkwrap.md
+silly extracting entry doc/cli/star.md
+silly extracting entry doc/cli/start.md
+silly extracting entry doc/cli/stop.md
+silly extracting entry doc/cli/submodule.md
+silly extracting entry doc/cli/tag.md
+silly extracting entry doc/cli/test.md
+silly extracting entry doc/cli/uninstall.md
+silly extracting entry doc/cli/unpublish.md
+silly extracting entry doc/cli/update.md
+silly extracting entry doc/cli/version.md
+silly extracting entry doc/cli/view.md
+silly extracting entry doc/cli/whoami.md
+silly extracting entry html/n-large.png
+silly extracting entry html/api/pack.html
+silly extracting entry html/api/author.html
+silly extracting entry html/api/bugs.html
+silly extracting entry html/api/commands.html
+silly extracting entry html/api/config.html
+silly extracting entry html/api/deprecate.html
+silly extracting entry html/api/docs.html
+silly extracting entry html/api/edit.html
+silly extracting entry html/api/explore.html
+silly extracting entry html/api/find.html
+silly extracting entry html/api/get.html
+silly extracting entry html/api/GubbleBum-Blocky.ttf
+silly extracting entry html/api/help-search.html
+silly extracting entry html/api/home.html
+silly extracting entry html/api/init.html
+silly extracting entry html/api/install.html
+silly extracting entry html/api/link.html
+silly extracting entry html/api/list.html
+silly extracting entry html/api/ln.html
+silly extracting entry html/api/load.html
+silly extracting entry html/api/ls.html
+silly extracting entry html/api/npm.html
+silly extracting entry html/api/outdated.html
+silly extracting entry html/api/owner.html
+silly extracting entry html/api/bin.html
+silly extracting entry html/api/prefix.html
+silly extracting entry html/api/prune.html
+silly extracting entry html/api/publish.html
+silly extracting entry html/api/rebuild.html
+silly extracting entry html/api/restart.html
+silly extracting entry html/api/rm.html
+silly extracting entry html/api/root.html
+silly extracting entry html/api/run-script.html
+silly extracting entry html/api/search.html
+silly extracting entry html/api/set.html
+silly extracting entry html/api/shrinkwrap.html
+silly extracting entry html/api/start.html
+silly extracting entry html/api/stop.html
+silly extracting entry html/api/style.css
+silly extracting entry html/api/submodule.html
+silly extracting entry html/api/tag.html
+silly extracting entry html/api/test.html
+silly extracting entry html/api/uninstall.html
+silly extracting entry html/api/unpublish.html
+silly extracting entry html/api/update.html
+silly extracting entry html/api/version.html
+silly extracting entry html/api/view.html
+silly extracting entry html/api/whoami.html
+silly extracting entry html/docfoot.html
+silly extracting entry html/dochead.html
+silly extracting entry html/favicon.ico
+silly extracting entry html/index.html
+silly extracting entry html/n-64.png
+silly extracting entry html/doc/ls.html
+silly extracting entry html/doc/adduser.html
+silly extracting entry html/doc/bin.html
+silly extracting entry html/doc/bugs.html
+silly extracting entry html/doc/build.html
+silly extracting entry html/doc/bundle.html
+silly extracting entry html/doc/cache.html
+silly extracting entry html/doc/changelog.html
+silly extracting entry html/doc/coding-style.html
+silly extracting entry html/doc/completion.html
+silly extracting entry html/doc/config.html
+silly extracting entry html/doc/deprecate.html
+silly extracting entry html/doc/developers.html
+silly extracting entry html/doc/disputes.html
+silly extracting entry html/doc/docs.html
+silly extracting entry html/doc/edit.html
+silly extracting entry html/doc/explore.html
+silly extracting entry html/doc/faq.html
+silly extracting entry html/doc/find.html
+silly extracting entry html/doc/folders.html
+silly extracting entry html/doc/get.html
+silly extracting entry html/doc/global.html
+silly extracting entry html/doc/GubbleBum-Blocky.ttf
+silly extracting entry html/doc/help-search.html
+silly extracting entry html/doc/help.html
+silly extracting entry html/doc/home.html
+silly extracting entry html/doc/index.html
+silly extracting entry html/doc/init.html
+silly extracting entry html/doc/install.html
+silly extracting entry html/doc/json.html
+silly extracting entry html/doc/link.html
+silly extracting entry html/doc/list.html
+silly extracting entry html/doc/ln.html
+silly extracting entry html/doc/author.html
+silly extracting entry html/doc/npm.html
+silly extracting entry html/doc/outdated.html
+silly extracting entry html/doc/owner.html
+silly extracting entry html/doc/pack.html
+silly extracting entry html/doc/prefix.html
+silly extracting entry html/doc/prune.html
+silly extracting entry html/doc/publish.html
+silly extracting entry html/doc/README.html
+silly extracting entry html/doc/rebuild.html
+silly extracting entry html/doc/registry.html
+silly extracting entry html/doc/removing-npm.html
+silly extracting entry html/doc/restart.html
+silly extracting entry html/doc/rm.html
+silly extracting entry html/doc/root.html
+silly extracting entry html/doc/run-script.html
+silly extracting entry html/doc/scripts.html
+silly extracting entry html/doc/search.html
+silly extracting entry html/doc/semver.html
+silly extracting entry html/doc/set.html
+silly extracting entry html/doc/shrinkwrap.html
+silly extracting entry html/doc/star.html
+silly extracting entry html/doc/start.html
+silly extracting entry html/doc/stop.html
+silly extracting entry html/doc/style.css
+silly extracting entry html/doc/submodule.html
+silly extracting entry html/doc/tag.html
+silly extracting entry html/doc/test.html
+silly extracting entry html/doc/uninstall.html
+silly extracting entry html/doc/unpublish.html
+silly extracting entry html/doc/update.html
+silly extracting entry html/doc/version.html
+silly extracting entry html/doc/view.html
+silly extracting entry html/doc/whoami.html
+silly extracting entry html/npm-16.png
+silly extracting entry html/npm-256-square.png
+silly extracting entry html/npm-256w.png
+silly extracting entry html/npm-64-square.png
+silly extracting entry html/npm-fin.png
+silly extracting entry html/npm-large.png
+silly extracting entry html/npm.png
+silly extracting entry .travis.yml
+silly extracting entry AUTHORS
+silly extracting entry Makefile
+silly extracting entry man/man1/ls.1
+silly extracting entry man/man1/adduser.1
+silly extracting entry man/man1/bin.1
+silly extracting entry man/man1/bugs.1
+silly extracting entry man/man1/build.1
+silly extracting entry man/man1/bundle.1
+silly extracting entry man/man1/cache.1
+silly extracting entry man/man1/changelog.1
+silly extracting entry man/man1/coding-style.1
+silly extracting entry man/man1/completion.1
+silly extracting entry man/man1/config.1
+silly extracting entry man/man1/deprecate.1
+silly extracting entry man/man1/developers.1
+silly extracting entry man/man1/disputes.1
+silly extracting entry man/man1/docs.1
+silly extracting entry man/man1/edit.1
+silly extracting entry man/man1/explore.1
+silly extracting entry man/man1/faq.1
+silly extracting entry man/man1/find.1
+silly extracting entry man/man1/folders.1
+silly extracting entry man/man1/get.1
+silly extracting entry man/man1/global.1
+silly extracting entry man/man1/help-search.1
+silly extracting entry man/man1/help.1
+silly extracting entry man/man1/home.1
+silly extracting entry man/man1/index.1
+silly extracting entry man/man1/init.1
+silly extracting entry man/man1/install.1
+silly extracting entry man/man1/json.1
+silly extracting entry man/man1/link.1
+silly extracting entry man/man1/list.1
+silly extracting entry man/man1/ln.1
+silly extracting entry man/man1/author.1
+silly extracting entry man/man1/npm.1
+silly extracting entry man/man1/outdated.1
+silly extracting entry man/man1/owner.1
+silly extracting entry man/man1/pack.1
+silly extracting entry man/man1/prefix.1
+silly extracting entry man/man1/prune.1
+silly extracting entry man/man1/publish.1
+silly extracting entry man/man1/README.1
+silly extracting entry man/man1/rebuild.1
+silly extracting entry man/man1/registry.1
+silly extracting entry man/man1/removing-npm.1
+silly extracting entry man/man1/restart.1
+silly extracting entry man/man1/rm.1
+silly extracting entry man/man1/root.1
+silly extracting entry man/man1/run-script.1
+silly extracting entry man/man1/scripts.1
+silly extracting entry man/man1/search.1
+silly extracting entry man/man1/semver.1
+silly extracting entry man/man1/set.1
+silly extracting entry man/man1/shrinkwrap.1
+silly extracting entry man/man1/star.1
+silly extracting entry man/man1/start.1
+silly extracting entry man/man1/stop.1
+silly extracting entry man/man1/submodule.1
+silly extracting entry man/man1/tag.1
+silly extracting entry man/man1/test.1
+silly extracting entry man/man1/uninstall.1
+silly extracting entry man/man1/unpublish.1
+silly extracting entry man/man1/update.1
+silly extracting entry man/man1/version.1
+silly extracting entry man/man1/view.1
+silly extracting entry man/man1/whoami.1
+silly extracting entry man/man3/pack.3
+silly extracting entry man/man3/author.3
+silly extracting entry man/man3/bugs.3
+silly extracting entry man/man3/commands.3
+silly extracting entry man/man3/config.3
+silly extracting entry man/man3/deprecate.3
+silly extracting entry man/man3/docs.3
+silly extracting entry man/man3/edit.3
+silly extracting entry man/man3/explore.3
+silly extracting entry man/man3/find.3
+silly extracting entry man/man3/get.3
+silly extracting entry man/man3/help-search.3
+silly extracting entry man/man3/home.3
+silly extracting entry man/man3/init.3
+silly extracting entry man/man3/install.3
+silly extracting entry man/man3/link.3
+silly extracting entry man/man3/list.3
+silly extracting entry man/man3/ln.3
+silly extracting entry man/man3/load.3
+silly extracting entry man/man3/ls.3
+silly extracting entry man/man3/npm.3
+silly extracting entry man/man3/outdated.3
+silly extracting entry man/man3/owner.3
+silly extracting entry man/man3/bin.3
+silly extracting entry man/man3/prefix.3
+silly extracting entry man/man3/prune.3
+silly extracting entry man/man3/publish.3
+silly extracting entry man/man3/rebuild.3
+silly extracting entry man/man3/restart.3
+silly extracting entry man/man3/rm.3
+silly extracting entry man/man3/root.3
+silly extracting entry man/man3/run-script.3
+silly extracting entry man/man3/search.3
+silly extracting entry man/man3/set.3
+silly extracting entry man/man3/shrinkwrap.3
+silly extracting entry man/man3/start.3
+silly extracting entry man/man3/stop.3
+silly extracting entry man/man3/submodule.3
+silly extracting entry man/man3/tag.3
+silly extracting entry man/man3/test.3
+silly extracting entry man/man3/uninstall.3
+silly extracting entry man/man3/unpublish.3
+silly extracting entry man/man3/update.3
+silly extracting entry man/man3/version.3
+silly extracting entry man/man3/view.3
+silly extracting entry man/man3/whoami.3
+silly extracting entry scripts/index-build.js
+silly extracting entry scripts/clean-old.sh
+silly extracting entry scripts/doc-build.sh
+silly extracting entry scripts/install.sh
+silly extracting entry scripts/release.sh
+silly extracting entry bin/npm-cli.js
+silly extracting entry bin/read-package-json.js
+silly extracting entry bin/node-gyp-bin/node-gyp
+silly extracting entry bin/node-gyp-bin/node-gyp.cmd
+silly extracting entry bin/npm
+silly extracting entry bin/npm.cmd
+silly extracting entry test/common.js
+silly extracting entry test/run.js
+silly extracting entry test/disabled/bundlerecurs/package.json
+silly extracting entry test/disabled/failer/package.json
+silly extracting entry test/disabled/fast/package.json
+silly extracting entry test/disabled/package-bar/package.json
+silly extracting entry test/disabled/package-config/package.json
+silly extracting entry test/disabled/package-config/test.js
+silly extracting entry test/disabled/package-foo/package.json
+silly extracting entry test/disabled/slow/package.json
+silly extracting entry test/disabled/startstop/package.json
+silly extracting entry test/packages/npm-test-optional-deps/package.json
+silly extracting entry test/packages/npm-test-optional-deps/test.js
+silly extracting entry test/packages/npm-test-blerg/package.json
+silly extracting entry test/packages/npm-test-blerg/test.js
+silly extracting entry test/packages/npm-test-env-reader/package.json
+silly extracting entry test/packages/npm-test-env-reader/test.js
+silly extracting entry test/packages/npm-test-files/package.json
+silly extracting entry test/packages/npm-test-files/.npmignore
+silly extracting entry test/packages/npm-test-files/include4
+silly extracting entry test/packages/npm-test-files/sub/include
+silly extracting entry test/packages/npm-test-files/sub/include2
+silly extracting entry test/packages/npm-test-files/sub/include4
+silly extracting entry test/packages/npm-test-files/test.sh
+silly extracting entry test/packages/npm-test-ignore/package.json
+silly extracting entry test/packages/npm-test-ignore/.npmignore
+silly extracting entry test/packages/npm-test-ignore/include4
+silly extracting entry test/packages/npm-test-ignore/sub/include
+silly extracting entry test/packages/npm-test-ignore/sub/include2
+silly extracting entry test/packages/npm-test-ignore/sub/include4
+silly extracting entry test/packages/npm-test-ignore/test.sh
+silly extracting entry test/packages/npm-test-missing-bindir/package.json
+silly extracting entry test/packages/npm-test-missing-bindir/test.js
+silly extracting entry test/packages/npm-test-bundled-git/package.json
+silly extracting entry test/packages/npm-test-bundled-git/test.js
+silly extracting entry test/packages/npm-test-bundled-git/minimatch-expected.json
+silly extracting entry test/packages/npm-test-platform/package.json
+silly extracting entry test/packages/npm-test-platform-all/package.json
+silly extracting entry test/packages/npm-test-private/package.json
+silly extracting entry test/packages/npm-test-shrinkwrap/package.json
+silly extracting entry test/packages/npm-test-shrinkwrap/npm-shrinkwrap.json
+silly extracting entry test/packages/npm-test-shrinkwrap/test.sh
+silly extracting entry test/packages/npm-test-test-package/package.json
+silly extracting entry test/packages/npm-test-url-dep/package.json
+silly extracting entry test/update-test.sh
+silly extracting entry lib/adduser.js
+silly extracting entry lib/outdated.js
+silly extracting entry lib/owner.js
+silly extracting entry lib/pack.js
+silly extracting entry lib/prefix.js
+silly extracting entry lib/npm.js
+silly extracting entry lib/publish.js
+silly extracting entry lib/rebuild.js
+silly extracting entry lib/restart.js
+silly extracting entry lib/root.js
+silly extracting entry lib/run-script.js
+silly extracting entry lib/ls.js
+silly extracting entry lib/search.js
+silly extracting entry lib/link.js
+silly extracting entry lib/set.js
+silly extracting entry lib/install.js
+silly extracting entry lib/shrinkwrap.js
+silly extracting entry lib/init.js
+silly extracting entry lib/star.js
+silly extracting entry lib/help.js
+silly extracting entry lib/start.js
+silly extracting entry lib/help-search.js
+silly extracting entry lib/stop.js
+silly extracting entry lib/get.js
+silly extracting entry lib/submodule.js
+silly extracting entry lib/faq.js
+silly extracting entry lib/substack.js
+silly extracting entry lib/explore.js
+silly extracting entry lib/tag.js
+silly extracting entry lib/edit.js
+silly extracting entry lib/test.js
+silly extracting entry lib/docs.js
+silly extracting entry lib/unbuild.js
+silly extracting entry lib/deprecate.js
+silly extracting entry lib/uninstall.js
+silly extracting entry lib/config.js
+silly extracting entry lib/unpublish.js
+silly extracting entry lib/completion.js
+silly extracting entry lib/update.js
+silly extracting entry lib/cache.js
+silly extracting entry lib/whoami.js
+silly extracting entry lib/build.js
+silly extracting entry lib/version.js
+silly extracting entry lib/bugs.js
+silly extracting entry lib/view.js
+silly extracting entry lib/bin.js
+silly extracting entry lib/xmas.js
+silly extracting entry lib/prune.js
+silly extracting entry lib/utils/cmd-shim.js
+silly extracting entry lib/utils/fetch.js
+silly extracting entry lib/utils/find-prefix.js
+silly extracting entry lib/utils/find.js
+silly extracting entry lib/utils/gently-rm.js
+silly extracting entry lib/utils/exec.js
+silly extracting entry lib/utils/relativize.js
+silly extracting entry lib/utils/link.js
+silly extracting entry lib/utils/load-package-defaults.js
+silly extracting entry lib/utils/log.js
+silly extracting entry lib/utils/read-json.js
+silly extracting entry lib/utils/error-handler.js
+silly extracting entry lib/utils/output.js
+silly extracting entry lib/utils/config-defs.js
+silly extracting entry lib/utils/promise-chain.js
+silly extracting entry lib/utils/sha.js
+silly extracting entry lib/utils/read-installed.js
+silly extracting entry lib/utils/ini.js
+silly extracting entry lib/utils/tar.js
+silly extracting entry lib/utils/lifecycle.js
+silly extracting entry lib/utils/npm-registry-client/adduser.js
+silly extracting entry lib/utils/npm-registry-client/get.js
+silly extracting entry lib/utils/npm-registry-client/index.js
+silly extracting entry lib/utils/npm-registry-client/publish.js
+silly extracting entry lib/utils/npm-registry-client/request.js
+silly extracting entry lib/utils/npm-registry-client/star.js
+silly extracting entry lib/utils/npm-registry-client/tag.js
+silly extracting entry lib/utils/npm-registry-client/unpublish.js
+silly extracting entry lib/utils/completion/file-completion.js
+silly extracting entry lib/utils/completion/installed-deep.js
+silly extracting entry lib/utils/completion/installed-shallow.js
+silly extracting entry lib/utils/completion/remote-packages.js
+silly extracting entry lib/utils/completion/users.js
+silly extracting entry lib/utils/completion.sh
+silly extracting entry node_modules/node-gyp/package.json
+silly extracting entry node_modules/node-gyp/.npmignore
+silly extracting entry node_modules/node-gyp/README.md
+silly extracting entry node_modules/node-gyp/bin/node-gyp.js
+silly extracting entry node_modules/node-gyp/legacy/common.gypi
+silly extracting entry node_modules/node-gyp/legacy/tools/addon.gypi
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/.npmignore
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/LICENSE
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/MANIFEST
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/buildbot/buildbot_run.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/DEPS
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/gyp
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/gyp.bat
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/gyp_dummy.c
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/gyptest.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/AUTHORS
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/codereview.settings
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/OWNERS
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/PRESUBMIT.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/MSVSSettings_test.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/__init__.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/easy_xml.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/easy_xml_test.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/generator/msvs.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/generator/__init__.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/generator/gypd.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/generator/gypsh.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/generator/make.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/generator/dump_dependency_json.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/generator/msvs_test.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/generator/ninja.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/generator/ninja_test.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/generator/scons.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/generator/xcode.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/input.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/mac_tool.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/MSVSNew.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/MSVSProject.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/MSVSSettings.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/common.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/MSVSToolFile.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/MSVSUserFile.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/MSVSVersion.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/ninja_syntax.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/SCons.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/sun_tool.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/system_test.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/xcode_emulation.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/xcodeproj_file.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylib/gyp/xml_fix.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/pylintrc
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/samples/samples
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/samples/samples.bat
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/setup.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/tools/README
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/tools/graphviz.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/tools/pretty_gyp.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/tools/pretty_sln.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/tools/pretty_vcproj.py
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/tools/Xcode/README
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/tools/Xcode/Specifications/gyp.pbfilespec
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp/tools/Xcode/Specifications/gyp.xclangspec
+silly extracting entry node_modules/node-gyp/legacy/tools/gyp_addon
+silly extracting entry node_modules/node-gyp/lib/build.js
+silly extracting entry node_modules/node-gyp/lib/clean.js
+silly extracting entry node_modules/node-gyp/lib/configure.js
+silly extracting entry node_modules/node-gyp/lib/install.js
+silly extracting entry node_modules/node-gyp/lib/list.js
+silly extracting entry node_modules/node-gyp/lib/node-gyp.js
+silly extracting entry node_modules/node-gyp/lib/rebuild.js
+silly extracting entry node_modules/node-gyp/lib/remove.js
+silly extracting entry node_modules/node-gyp/lib/util/asyncEmit.js
+silly extracting entry node_modules/node-gyp/lib/util/hook.js
+silly extracting entry node_modules/node-gyp/lib/util/mkdirp.js
+silly extracting entry node_modules/node-gyp/updateLegacy.sh
+silly extracting entry node_modules/node-gyp/node_modules/ansi/package.json
+silly extracting entry node_modules/node-gyp/node_modules/ansi/.npmignore
+silly extracting entry node_modules/node-gyp/node_modules/ansi/README.md
+silly extracting entry node_modules/node-gyp/node_modules/ansi/server.js
+silly extracting entry node_modules/node-gyp/node_modules/ansi/lib/ansi.js
+silly extracting entry node_modules/node-gyp/node_modules/ansi/nodejs.png
+silly extracting entry node_modules/node-gyp/node_modules/glob/package.json
+silly extracting entry node_modules/node-gyp/node_modules/glob/.npmignore
+silly extracting entry node_modules/node-gyp/node_modules/glob/README.md
+silly extracting entry node_modules/node-gyp/node_modules/glob/LICENCE
+silly extracting entry node_modules/node-gyp/node_modules/glob/glob.js
+silly extracting entry node_modules/node-gyp/node_modules/glob/.travis.yml
+silly extracting entry node_modules/abbrev/package.json
+silly extracting entry node_modules/abbrev/README.md
+silly extracting entry node_modules/abbrev/LICENSE
+silly extracting entry node_modules/abbrev/lib/abbrev.js
+silly extracting entry node_modules/block-stream/package.json
+silly extracting entry node_modules/block-stream/README.md
+silly extracting entry node_modules/block-stream/block-stream.js
+silly extracting entry node_modules/chownr/package.json
+silly extracting entry node_modules/chownr/README.md
+silly extracting entry node_modules/chownr/chownr.js
+silly extracting entry node_modules/fstream/package.json
+silly extracting entry node_modules/fstream/.npmignore
+silly extracting entry node_modules/fstream/README.md
+silly extracting entry node_modules/fstream/LICENCE
+silly extracting entry node_modules/fstream/fstream.js
+silly extracting entry node_modules/fstream/.travis.yml
+silly extracting entry node_modules/fstream/lib/abstract.js
+silly extracting entry node_modules/fstream/lib/dir-writer.js
+silly extracting entry node_modules/fstream/lib/file-reader.js
+silly extracting entry node_modules/fstream/lib/file-writer.js
+silly extracting entry node_modules/fstream/lib/get-type.js
+silly extracting entry node_modules/fstream/lib/dir-reader.js
+silly extracting entry node_modules/fstream/lib/link-writer.js
+silly extracting entry node_modules/fstream/lib/proxy-reader.js
+silly extracting entry node_modules/fstream/lib/proxy-writer.js
+silly extracting entry node_modules/fstream/lib/reader.js
+silly extracting entry node_modules/fstream/lib/socket-reader.js
+silly extracting entry node_modules/fstream/lib/collect.js
+silly extracting entry node_modules/fstream/lib/writer.js
+silly extracting entry node_modules/fstream/lib/link-reader.js
+silly extracting entry node_modules/fstream-npm/package.json
+silly extracting entry node_modules/fstream-npm/.npmignore
+silly extracting entry node_modules/fstream-npm/README.md
+silly extracting entry node_modules/fstream-npm/fstream-npm.js
+silly extracting entry node_modules/fstream-npm/node_modules/fstream-ignore/package.json
+silly extracting entry node_modules/fstream-npm/node_modules/fstream-ignore/.npmignore
+silly extracting entry node_modules/fstream-npm/node_modules/fstream-ignore/README.md
+silly extracting entry node_modules/fstream-npm/node_modules/fstream-ignore/ignore.js
+silly extracting entry node_modules/graceful-fs/package.json
+silly extracting entry node_modules/graceful-fs/.npmignore
+silly extracting entry node_modules/graceful-fs/README.md
+silly extracting entry node_modules/graceful-fs/LICENSE
+silly extracting entry node_modules/graceful-fs/graceful-fs.js
+silly extracting entry node_modules/inherits/package.json
+silly extracting entry node_modules/inherits/README.md
+silly extracting entry node_modules/inherits/LICENSE
+silly extracting entry node_modules/inherits/inherits-old.js
+silly extracting entry node_modules/inherits/inherits.js
+silly extracting entry node_modules/ini/package.json
+silly extracting entry node_modules/ini/README.md
+silly extracting entry node_modules/ini/LICENSE
+silly extracting entry node_modules/ini/ini.js
+silly extracting entry node_modules/lru-cache/package.json
+silly extracting entry node_modules/lru-cache/.npmignore
+silly extracting entry node_modules/lru-cache/README.md
+silly extracting entry node_modules/lru-cache/LICENSE
+silly extracting entry node_modules/lru-cache/lib/lru-cache.js
+silly extracting entry node_modules/minimatch/package.json
+silly extracting entry node_modules/minimatch/README.md
+silly extracting entry node_modules/minimatch/LICENSE
+silly extracting entry node_modules/minimatch/minimatch.js
+silly extracting entry node_modules/minimatch/.travis.yml
+silly extracting entry node_modules/mkdirp/package.json
+silly extracting entry node_modules/mkdirp/LICENSE
+silly extracting entry node_modules/mkdirp/index.js
+silly extracting entry node_modules/mkdirp/README.markdown
+silly extracting entry node_modules/archy/package.json
+silly extracting entry node_modules/archy/index.js
+silly extracting entry node_modules/archy/README.markdown
+silly extracting entry node_modules/node-uuid/package.json
+silly extracting entry node_modules/node-uuid/.npmignore
+silly extracting entry node_modules/node-uuid/README.md
+silly extracting entry node_modules/node-uuid/uuid.js
+silly extracting entry node_modules/node-uuid/LICENSE.md
+silly extracting entry node_modules/nopt/package.json
+silly extracting entry node_modules/nopt/.npmignore
+silly extracting entry node_modules/nopt/README.md
+silly extracting entry node_modules/nopt/LICENSE
+silly extracting entry node_modules/nopt/bin/nopt.js
+silly extracting entry node_modules/nopt/lib/nopt.js
+silly extracting entry node_modules/proto-list/package.json
+silly extracting entry node_modules/proto-list/README.md
+silly extracting entry node_modules/proto-list/LICENSE
+silly extracting entry node_modules/proto-list/proto-list.js
+silly extracting entry node_modules/read/package.json
+silly extracting entry node_modules/read/README.md
+silly extracting entry node_modules/read/LICENCE
+silly extracting entry node_modules/read/lib/read.js
+silly extracting entry node_modules/request/package.json
+silly extracting entry node_modules/request/README.md
+silly extracting entry node_modules/request/LICENSE
+silly extracting entry node_modules/request/forever.js
+silly extracting entry node_modules/request/main.js
+silly extracting entry node_modules/request/mimetypes.js
+silly extracting entry node_modules/request/oauth.js
+silly extracting entry node_modules/request/tunnel.js
+silly extracting entry node_modules/request/uuid.js
+silly extracting entry node_modules/request/vendor/cookie/index.js
+silly extracting entry node_modules/request/vendor/cookie/jar.js
+silly extracting entry node_modules/rimraf/package.json
+silly extracting entry node_modules/rimraf/README.md
+silly extracting entry node_modules/rimraf/LICENSE
+silly extracting entry node_modules/rimraf/rimraf.js
+silly extracting entry node_modules/rimraf/AUTHORS
+silly extracting entry node_modules/semver/package.json
+silly extracting entry node_modules/semver/README.md
+silly extracting entry node_modules/semver/LICENSE
+silly extracting entry node_modules/semver/semver.js
+silly extracting entry node_modules/semver/bin/semver
+silly extracting entry node_modules/slide/package.json
+silly extracting entry node_modules/slide/.npmignore
+silly extracting entry node_modules/slide/README.md
+silly extracting entry node_modules/slide/LICENSE
+silly extracting entry node_modules/slide/index.js
+silly extracting entry node_modules/slide/lib/async-map-ordered.js
+silly extracting entry node_modules/slide/lib/async-map.js
+silly extracting entry node_modules/slide/lib/bind-actor.js
+silly extracting entry node_modules/slide/lib/chain.js
+silly extracting entry node_modules/slide/lib/slide.js
+silly extracting entry node_modules/tar/package.json
+silly extracting entry node_modules/tar/.npmignore
+silly extracting entry node_modules/tar/README.md
+silly extracting entry node_modules/tar/tar.js
+silly extracting entry node_modules/tar/.travis.yml
+silly extracting entry node_modules/tar/lib/buffer-entry.js
+silly extracting entry node_modules/tar/lib/entry-writer.js
+silly extracting entry node_modules/tar/lib/entry.js
+silly extracting entry node_modules/tar/lib/extended-header-writer.js
+silly extracting entry node_modules/tar/lib/extended-header.js
+silly extracting entry node_modules/tar/lib/extract.js
+silly extracting entry node_modules/tar/lib/global-header-writer.js
+silly extracting entry node_modules/tar/lib/header.js
+silly extracting entry node_modules/tar/lib/pack.js
+silly extracting entry node_modules/tar/lib/parse.js
+silly extracting entry node_modules/uid-number/package.json
+silly extracting entry node_modules/uid-number/README.md
+silly extracting entry node_modules/uid-number/get-uid-gid.js
+silly extracting entry node_modules/uid-number/uid-number.js
+silly extracting entry node_modules/which/package.json
+silly extracting entry node_modules/which/README.md
+silly extracting entry node_modules/which/LICENSE
+silly extracting entry node_modules/which/which.js
+silly extracting entry node_modules/which/bin/which
+verbose caching C:\Users\grs1\AppData\Local\Temp\npm-1340677014814\1340677014814-0.5654315715655684\package\package.json
+verbose loadDefaults npm@1.1.16
+verbose from cache C:\Users\grs1\AppData\Local\Temp\npm-1340677014814\1340677014814-0.5654315715655684\package\package.json
+verbose tar.pack [ 'C:\\Users\\grs1\\AppData\\Roaming\\npm-cache\\npm\\1.1.16\\package.tgz',
+verbose tar.pack   'C:\\Users\\grs1\\AppData\\Local\\Temp\\npm-1340677014814\\1340677014814-0.5654315715655684\\package' ]
+verbose tarball C:\Users\grs1\AppData\Roaming\npm-cache\npm\1.1.16\package.tgz
+verbose folder C:\Users\grs1\AppData\Local\Temp\npm-1340677014814\1340677014814-0.5654315715655684\package
+verbose unpack C:\Users\grs1\AppData\Roaming\npm-cache\npm\1.1.16\package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry .npmignore
+silly modified mode [ '.npmignore', 438, 420 ]
+silly extracting entry README.md
+silly modified mode [ 'README.md', 438, 420 ]
+silly extracting entry LICENSE
+silly modified mode [ 'LICENSE', 438, 420 ]
+silly extracting entry cli.js
+silly modified mode [ 'cli.js', 438, 420 ]
+silly extracting entry configure
+silly modified mode [ 'configure', 438, 420 ]
+silly extracting entry doc/api/prune.md
+silly modified mode [ 'doc/api/prune.md', 438, 420 ]
+silly extracting entry doc/api/bin.md
+silly modified mode [ 'doc/api/bin.md', 438, 420 ]
+silly extracting entry doc/api/commands.md
+silly modified mode [ 'doc/api/commands.md', 438, 420 ]
+silly extracting entry doc/api/config.md
+silly modified mode [ 'doc/api/config.md', 438, 420 ]
+silly extracting entry doc/api/deprecate.md
+silly modified mode [ 'doc/api/deprecate.md', 438, 420 ]
+silly extracting entry doc/api/docs.md
+silly modified mode [ 'doc/api/docs.md', 438, 420 ]
+silly extracting entry doc/api/edit.md
+silly modified mode [ 'doc/api/edit.md', 438, 420 ]
+silly extracting entry doc/api/explore.md
+silly modified mode [ 'doc/api/explore.md', 438, 420 ]
+silly extracting entry doc/api/help-search.md
+silly modified mode [ 'doc/api/help-search.md', 438, 420 ]
+silly extracting entry doc/api/init.md
+silly modified mode [ 'doc/api/init.md', 438, 420 ]
+silly extracting entry doc/api/install.md
+silly modified mode [ 'doc/api/install.md', 438, 420 ]
+silly extracting entry doc/api/link.md
+silly modified mode [ 'doc/api/link.md', 438, 420 ]
+silly extracting entry doc/api/load.md
+silly modified mode [ 'doc/api/load.md', 438, 420 ]
+silly extracting entry doc/api/ls.md
+silly modified mode [ 'doc/api/ls.md', 438, 420 ]
+silly extracting entry doc/api/npm.md
+silly modified mode [ 'doc/api/npm.md', 438, 420 ]
+silly extracting entry doc/api/outdated.md
+silly modified mode [ 'doc/api/outdated.md', 438, 420 ]
+silly extracting entry doc/api/owner.md
+silly modified mode [ 'doc/api/owner.md', 438, 420 ]
+silly extracting entry doc/api/pack.md
+silly modified mode [ 'doc/api/pack.md', 438, 420 ]
+silly extracting entry doc/api/prefix.md
+silly modified mode [ 'doc/api/prefix.md', 438, 420 ]
+silly extracting entry doc/api/bugs.md
+silly modified mode [ 'doc/api/bugs.md', 438, 420 ]
+silly extracting entry doc/api/publish.md
+silly modified mode [ 'doc/api/publish.md', 438, 420 ]
+silly extracting entry doc/api/rebuild.md
+silly modified mode [ 'doc/api/rebuild.md', 438, 420 ]
+silly extracting entry doc/api/restart.md
+silly modified mode [ 'doc/api/restart.md', 438, 420 ]
+silly extracting entry doc/api/root.md
+silly modified mode [ 'doc/api/root.md', 438, 420 ]
+silly extracting entry doc/api/run-script.md
+silly modified mode [ 'doc/api/run-script.md', 438, 420 ]
+silly extracting entry doc/api/search.md
+silly modified mode [ 'doc/api/search.md', 438, 420 ]
+silly extracting entry doc/api/shrinkwrap.md
+silly modified mode [ 'doc/api/shrinkwrap.md', 438, 420 ]
+silly extracting entry doc/api/start.md
+silly modified mode [ 'doc/api/start.md', 438, 420 ]
+silly extracting entry doc/api/stop.md
+silly modified mode [ 'doc/api/stop.md', 438, 420 ]
+silly extracting entry doc/api/submodule.md
+silly modified mode [ 'doc/api/submodule.md', 438, 420 ]
+silly extracting entry doc/api/tag.md
+silly modified mode [ 'doc/api/tag.md', 438, 420 ]
+silly extracting entry doc/api/test.md
+silly modified mode [ 'doc/api/test.md', 438, 420 ]
+silly extracting entry doc/api/uninstall.md
+silly modified mode [ 'doc/api/uninstall.md', 438, 420 ]
+silly extracting entry doc/api/unpublish.md
+silly modified mode [ 'doc/api/unpublish.md', 438, 420 ]
+silly extracting entry doc/api/update.md
+silly modified mode [ 'doc/api/update.md', 438, 420 ]
+silly extracting entry doc/api/version.md
+silly modified mode [ 'doc/api/version.md', 438, 420 ]
+silly extracting entry doc/api/view.md
+silly modified mode [ 'doc/api/view.md', 438, 420 ]
+silly extracting entry doc/api/whoami.md
+silly modified mode [ 'doc/api/whoami.md', 438, 420 ]
+silly extracting entry doc/cli/outdated.md
+silly modified mode [ 'doc/cli/outdated.md', 438, 420 ]
+silly extracting entry doc/cli/adduser.md
+silly modified mode [ 'doc/cli/adduser.md', 438, 420 ]
+silly extracting entry doc/cli/bugs.md
+silly modified mode [ 'doc/cli/bugs.md', 438, 420 ]
+silly extracting entry doc/cli/build.md
+silly modified mode [ 'doc/cli/build.md', 438, 420 ]
+silly extracting entry doc/cli/bundle.md
+silly modified mode [ 'doc/cli/bundle.md', 438, 420 ]
+silly extracting entry doc/cli/cache.md
+silly modified mode [ 'doc/cli/cache.md', 438, 420 ]
+silly extracting entry doc/cli/changelog.md
+silly modified mode [ 'doc/cli/changelog.md', 438, 420 ]
+silly extracting entry doc/cli/coding-style.md
+silly modified mode [ 'doc/cli/coding-style.md', 438, 420 ]
+silly extracting entry doc/cli/completion.md
+silly modified mode [ 'doc/cli/completion.md', 438, 420 ]
+silly extracting entry doc/cli/config.md
+silly modified mode [ 'doc/cli/config.md', 438, 420 ]
+silly extracting entry doc/cli/deprecate.md
+silly modified mode [ 'doc/cli/deprecate.md', 438, 420 ]
+silly extracting entry doc/cli/developers.md
+silly modified mode [ 'doc/cli/developers.md', 438, 420 ]
+silly extracting entry doc/cli/disputes.md
+silly modified mode [ 'doc/cli/disputes.md', 438, 420 ]
+silly extracting entry doc/cli/docs.md
+silly modified mode [ 'doc/cli/docs.md', 438, 420 ]
+silly extracting entry doc/cli/edit.md
+silly modified mode [ 'doc/cli/edit.md', 438, 420 ]
+silly extracting entry doc/cli/explore.md
+silly modified mode [ 'doc/cli/explore.md', 438, 420 ]
+silly extracting entry doc/cli/faq.md
+silly modified mode [ 'doc/cli/faq.md', 438, 420 ]
+silly extracting entry doc/cli/folders.md
+silly modified mode [ 'doc/cli/folders.md', 438, 420 ]
+silly extracting entry doc/cli/help-search.md
+silly modified mode [ 'doc/cli/help-search.md', 438, 420 ]
+silly extracting entry doc/cli/help.md
+silly modified mode [ 'doc/cli/help.md', 438, 420 ]
+silly extracting entry doc/cli/index.md
+silly modified mode [ 'doc/cli/index.md', 438, 420 ]
+silly extracting entry doc/cli/init.md
+silly modified mode [ 'doc/cli/init.md', 438, 420 ]
+silly extracting entry doc/cli/install.md
+silly modified mode [ 'doc/cli/install.md', 438, 420 ]
+silly extracting entry doc/cli/json.md
+silly modified mode [ 'doc/cli/json.md', 438, 420 ]
+silly extracting entry doc/cli/link.md
+silly modified mode [ 'doc/cli/link.md', 438, 420 ]
+silly extracting entry doc/cli/list.md
+silly modified mode [ 'doc/cli/list.md', 438, 420 ]
+silly extracting entry doc/cli/npm.md
+silly modified mode [ 'doc/cli/npm.md', 438, 420 ]
+silly extracting entry doc/cli/bin.md
+silly modified mode [ 'doc/cli/bin.md', 438, 420 ]
+silly extracting entry doc/cli/owner.md
+silly modified mode [ 'doc/cli/owner.md', 438, 420 ]
+silly extracting entry doc/cli/pack.md
+silly modified mode [ 'doc/cli/pack.md', 438, 420 ]
+silly extracting entry doc/cli/prefix.md
+silly modified mode [ 'doc/cli/prefix.md', 438, 420 ]
+silly extracting entry doc/cli/prune.md
+silly modified mode [ 'doc/cli/prune.md', 438, 420 ]
+silly extracting entry doc/cli/publish.md
+silly modified mode [ 'doc/cli/publish.md', 438, 420 ]
+silly extracting entry doc/cli/rebuild.md
+silly modified mode [ 'doc/cli/rebuild.md', 438, 420 ]
+silly extracting entry doc/cli/registry.md
+silly modified mode [ 'doc/cli/registry.md', 438, 420 ]
+silly extracting entry doc/cli/removing-npm.md
+silly modified mode [ 'doc/cli/removing-npm.md', 438, 420 ]
+silly extracting entry doc/cli/restart.md
+silly modified mode [ 'doc/cli/restart.md', 438, 420 ]
+silly extracting entry doc/cli/root.md
+silly modified mode [ 'doc/cli/root.md', 438, 420 ]
+silly extracting entry doc/cli/run-script.md
+silly modified mode [ 'doc/cli/run-script.md', 438, 420 ]
+silly extracting entry doc/cli/scripts.md
+silly modified mode [ 'doc/cli/scripts.md', 438, 420 ]
+silly extracting entry doc/cli/search.md
+silly modified mode [ 'doc/cli/search.md', 438, 420 ]
+silly extracting entry doc/cli/semver.md
+silly modified mode [ 'doc/cli/semver.md', 438, 420 ]
+silly extracting entry doc/cli/shrinkwrap.md
+silly modified mode [ 'doc/cli/shrinkwrap.md', 438, 420 ]
+silly extracting entry doc/cli/star.md
+silly modified mode [ 'doc/cli/star.md', 438, 420 ]
+silly extracting entry doc/cli/start.md
+silly modified mode [ 'doc/cli/start.md', 438, 420 ]
+silly extracting entry doc/cli/stop.md
+silly modified mode [ 'doc/cli/stop.md', 438, 420 ]
+silly extracting entry doc/cli/submodule.md
+silly modified mode [ 'doc/cli/submodule.md', 438, 420 ]
+silly extracting entry doc/cli/tag.md
+silly modified mode [ 'doc/cli/tag.md', 438, 420 ]
+silly extracting entry doc/cli/test.md
+silly modified mode [ 'doc/cli/test.md', 438, 420 ]
+silly extracting entry doc/cli/uninstall.md
+silly modified mode [ 'doc/cli/uninstall.md', 438, 420 ]
+silly extracting entry doc/cli/unpublish.md
+silly modified mode [ 'doc/cli/unpublish.md', 438, 420 ]
+silly extracting entry doc/cli/update.md
+silly modified mode [ 'doc/cli/update.md', 438, 420 ]
+silly extracting entry doc/cli/version.md
+silly modified mode [ 'doc/cli/version.md', 438, 420 ]
+silly extracting entry doc/cli/view.md
+silly modified mode [ 'doc/cli/view.md', 438, 420 ]
+silly extracting entry doc/cli/whoami.md
+silly modified mode [ 'doc/cli/whoami.md', 438, 420 ]
+silly extracting entry html/n-large.png
+silly modified mode [ 'html/n-large.png', 438, 420 ]
+silly extracting entry html/api/pack.html
+silly modified mode [ 'html/api/pack.html', 438, 420 ]
+silly extracting entry html/api/author.html
+silly modified mode [ 'html/api/author.html', 438, 420 ]
+silly extracting entry html/api/bugs.html
+silly modified mode [ 'html/api/bugs.html', 438, 420 ]
+silly extracting entry html/api/commands.html
+silly modified mode [ 'html/api/commands.html', 438, 420 ]
+silly extracting entry html/api/config.html
+silly modified mode [ 'html/api/config.html', 438, 420 ]
+silly extracting entry html/api/deprecate.html
+silly modified mode [ 'html/api/deprecate.html', 438, 420 ]
+silly extracting entry html/api/docs.html
+silly modified mode [ 'html/api/docs.html', 438, 420 ]
+silly extracting entry html/api/edit.html
+silly modified mode [ 'html/api/edit.html', 438, 420 ]
+silly extracting entry html/api/explore.html
+silly modified mode [ 'html/api/explore.html', 438, 420 ]
+silly extracting entry html/api/find.html
+silly modified mode [ 'html/api/find.html', 438, 420 ]
+silly extracting entry html/api/get.html
+silly modified mode [ 'html/api/get.html', 438, 420 ]
+silly extracting entry html/api/GubbleBum-Blocky.ttf
+silly modified mode [ 'html/api/GubbleBum-Blocky.ttf', 438, 420 ]
+silly extracting entry html/api/help-search.html
+silly modified mode [ 'html/api/help-search.html', 438, 420 ]
+silly extracting entry html/api/home.html
+silly modified mode [ 'html/api/home.html', 438, 420 ]
+silly extracting entry html/api/init.html
+silly modified mode [ 'html/api/init.html', 438, 420 ]
+silly extracting entry html/api/install.html
+silly modified mode [ 'html/api/install.html', 438, 420 ]
+silly extracting entry html/api/link.html
+silly modified mode [ 'html/api/link.html', 438, 420 ]
+silly extracting entry html/api/list.html
+silly modified mode [ 'html/api/list.html', 438, 420 ]
+silly extracting entry html/api/ln.html
+silly modified mode [ 'html/api/ln.html', 438, 420 ]
+silly extracting entry html/api/load.html
+silly modified mode [ 'html/api/load.html', 438, 420 ]
+silly extracting entry html/api/ls.html
+silly modified mode [ 'html/api/ls.html', 438, 420 ]
+silly extracting entry html/api/npm.html
+silly modified mode [ 'html/api/npm.html', 438, 420 ]
+silly extracting entry html/api/outdated.html
+silly modified mode [ 'html/api/outdated.html', 438, 420 ]
+silly extracting entry html/api/owner.html
+silly modified mode [ 'html/api/owner.html', 438, 420 ]
+silly extracting entry html/api/bin.html
+silly modified mode [ 'html/api/bin.html', 438, 420 ]
+silly extracting entry html/api/prefix.html
+silly modified mode [ 'html/api/prefix.html', 438, 420 ]
+silly extracting entry html/api/prune.html
+silly modified mode [ 'html/api/prune.html', 438, 420 ]
+silly extracting entry html/api/publish.html
+silly modified mode [ 'html/api/publish.html', 438, 420 ]
+silly extracting entry html/api/rebuild.html
+silly modified mode [ 'html/api/rebuild.html', 438, 420 ]
+silly extracting entry html/api/restart.html
+silly modified mode [ 'html/api/restart.html', 438, 420 ]
+silly extracting entry html/api/rm.html
+silly modified mode [ 'html/api/rm.html', 438, 420 ]
+silly extracting entry html/api/root.html
+silly modified mode [ 'html/api/root.html', 438, 420 ]
+silly extracting entry html/api/run-script.html
+silly modified mode [ 'html/api/run-script.html', 438, 420 ]
+silly extracting entry html/api/search.html
+silly modified mode [ 'html/api/search.html', 438, 420 ]
+silly extracting entry html/api/set.html
+silly modified mode [ 'html/api/set.html', 438, 420 ]
+silly extracting entry html/api/shrinkwrap.html
+silly modified mode [ 'html/api/shrinkwrap.html', 438, 420 ]
+silly extracting entry html/api/start.html
+silly modified mode [ 'html/api/start.html', 438, 420 ]
+silly extracting entry html/api/stop.html
+silly modified mode [ 'html/api/stop.html', 438, 420 ]
+silly extracting entry html/api/style.css
+silly modified mode [ 'html/api/style.css', 438, 420 ]
+silly extracting entry html/api/submodule.html
+silly modified mode [ 'html/api/submodule.html', 438, 420 ]
+silly extracting entry html/api/tag.html
+silly modified mode [ 'html/api/tag.html', 438, 420 ]
+silly extracting entry html/api/test.html
+silly modified mode [ 'html/api/test.html', 438, 420 ]
+silly extracting entry html/api/uninstall.html
+silly modified mode [ 'html/api/uninstall.html', 438, 420 ]
+silly extracting entry html/api/unpublish.html
+silly modified mode [ 'html/api/unpublish.html', 438, 420 ]
+silly extracting entry html/api/update.html
+silly modified mode [ 'html/api/update.html', 438, 420 ]
+silly extracting entry html/api/version.html
+silly modified mode [ 'html/api/version.html', 438, 420 ]
+silly extracting entry html/api/view.html
+silly modified mode [ 'html/api/view.html', 438, 420 ]
+silly extracting entry html/api/whoami.html
+silly modified mode [ 'html/api/whoami.html', 438, 420 ]
+silly extracting entry html/docfoot.html
+silly modified mode [ 'html/docfoot.html', 438, 420 ]
+silly extracting entry html/dochead.html
+silly modified mode [ 'html/dochead.html', 438, 420 ]
+silly extracting entry html/favicon.ico
+silly modified mode [ 'html/favicon.ico', 438, 420 ]
+silly extracting entry html/index.html
+silly modified mode [ 'html/index.html', 438, 420 ]
+silly extracting entry html/n-64.png
+silly modified mode [ 'html/n-64.png', 438, 420 ]
+silly extracting entry html/doc/ls.html
+silly modified mode [ 'html/doc/ls.html', 438, 420 ]
+silly extracting entry html/doc/adduser.html
+silly modified mode [ 'html/doc/adduser.html', 438, 420 ]
+silly extracting entry html/doc/bin.html
+silly modified mode [ 'html/doc/bin.html', 438, 420 ]
+silly extracting entry html/doc/bugs.html
+silly modified mode [ 'html/doc/bugs.html', 438, 420 ]
+silly extracting entry html/doc/build.html
+silly modified mode [ 'html/doc/build.html', 438, 420 ]
+silly extracting entry html/doc/bundle.html
+silly modified mode [ 'html/doc/bundle.html', 438, 420 ]
+silly extracting entry html/doc/cache.html
+silly modified mode [ 'html/doc/cache.html', 438, 420 ]
+silly extracting entry html/doc/changelog.html
+silly modified mode [ 'html/doc/changelog.html', 438, 420 ]
+silly extracting entry html/doc/coding-style.html
+silly modified mode [ 'html/doc/coding-style.html', 438, 420 ]
+silly extracting entry html/doc/completion.html
+silly modified mode [ 'html/doc/completion.html', 438, 420 ]
+silly extracting entry html/doc/config.html
+silly modified mode [ 'html/doc/config.html', 438, 420 ]
+silly extracting entry html/doc/deprecate.html
+silly modified mode [ 'html/doc/deprecate.html', 438, 420 ]
+silly extracting entry html/doc/developers.html
+silly modified mode [ 'html/doc/developers.html', 438, 420 ]
+silly extracting entry html/doc/disputes.html
+silly modified mode [ 'html/doc/disputes.html', 438, 420 ]
+silly extracting entry html/doc/docs.html
+silly modified mode [ 'html/doc/docs.html', 438, 420 ]
+silly extracting entry html/doc/edit.html
+silly modified mode [ 'html/doc/edit.html', 438, 420 ]
+silly extracting entry html/doc/explore.html
+silly modified mode [ 'html/doc/explore.html', 438, 420 ]
+silly extracting entry html/doc/faq.html
+silly modified mode [ 'html/doc/faq.html', 438, 420 ]
+silly extracting entry html/doc/find.html
+silly modified mode [ 'html/doc/find.html', 438, 420 ]
+silly extracting entry html/doc/folders.html
+silly modified mode [ 'html/doc/folders.html', 438, 420 ]
+silly extracting entry html/doc/get.html
+silly modified mode [ 'html/doc/get.html', 438, 420 ]
+silly extracting entry html/doc/global.html
+silly modified mode [ 'html/doc/global.html', 438, 420 ]
+silly extracting entry html/doc/GubbleBum-Blocky.ttf
+silly modified mode [ 'html/doc/GubbleBum-Blocky.ttf', 438, 420 ]
+silly extracting entry html/doc/help-search.html
+silly modified mode [ 'html/doc/help-search.html', 438, 420 ]
+silly extracting entry html/doc/help.html
+silly modified mode [ 'html/doc/help.html', 438, 420 ]
+silly extracting entry html/doc/home.html
+silly modified mode [ 'html/doc/home.html', 438, 420 ]
+silly extracting entry html/doc/index.html
+silly modified mode [ 'html/doc/index.html', 438, 420 ]
+silly extracting entry html/doc/init.html
+silly modified mode [ 'html/doc/init.html', 438, 420 ]
+silly extracting entry html/doc/install.html
+silly modified mode [ 'html/doc/install.html', 438, 420 ]
+silly extracting entry html/doc/json.html
+silly modified mode [ 'html/doc/json.html', 438, 420 ]
+silly extracting entry html/doc/link.html
+silly modified mode [ 'html/doc/link.html', 438, 420 ]
+silly extracting entry html/doc/list.html
+silly modified mode [ 'html/doc/list.html', 438, 420 ]
+silly extracting entry html/doc/ln.html
+silly modified mode [ 'html/doc/ln.html', 438, 420 ]
+silly extracting entry html/doc/author.html
+silly modified mode [ 'html/doc/author.html', 438, 420 ]
+silly extracting entry html/doc/npm.html
+silly modified mode [ 'html/doc/npm.html', 438, 420 ]
+silly extracting entry html/doc/outdated.html
+silly modified mode [ 'html/doc/outdated.html', 438, 420 ]
+silly extracting entry html/doc/owner.html
+silly modified mode [ 'html/doc/owner.html', 438, 420 ]
+silly extracting entry html/doc/pack.html
+silly modified mode [ 'html/doc/pack.html', 438, 420 ]
+silly extracting entry html/doc/prefix.html
+silly modified mode [ 'html/doc/prefix.html', 438, 420 ]
+silly extracting entry html/doc/prune.html
+silly modified mode [ 'html/doc/prune.html', 438, 420 ]
+silly extracting entry html/doc/publish.html
+silly modified mode [ 'html/doc/publish.html', 438, 420 ]
+silly extracting entry html/doc/README.html
+silly modified mode [ 'html/doc/README.html', 438, 420 ]
+silly extracting entry html/doc/rebuild.html
+silly modified mode [ 'html/doc/rebuild.html', 438, 420 ]
+silly extracting entry html/doc/registry.html
+silly modified mode [ 'html/doc/registry.html', 438, 420 ]
+silly extracting entry html/doc/removing-npm.html
+silly modified mode [ 'html/doc/removing-npm.html', 438, 420 ]
+silly extracting entry html/doc/restart.html
+silly modified mode [ 'html/doc/restart.html', 438, 420 ]
+silly extracting entry html/doc/rm.html
+silly modified mode [ 'html/doc/rm.html', 438, 420 ]
+silly extracting entry html/doc/root.html
+silly modified mode [ 'html/doc/root.html', 438, 420 ]
+silly extracting entry html/doc/run-script.html
+silly modified mode [ 'html/doc/run-script.html', 438, 420 ]
+silly extracting entry html/doc/scripts.html
+silly modified mode [ 'html/doc/scripts.html', 438, 420 ]
+silly extracting entry html/doc/search.html
+silly modified mode [ 'html/doc/search.html', 438, 420 ]
+silly extracting entry html/doc/semver.html
+silly modified mode [ 'html/doc/semver.html', 438, 420 ]
+silly extracting entry html/doc/set.html
+silly modified mode [ 'html/doc/set.html', 438, 420 ]
+silly extracting entry html/doc/shrinkwrap.html
+silly modified mode [ 'html/doc/shrinkwrap.html', 438, 420 ]
+silly extracting entry html/doc/star.html
+silly modified mode [ 'html/doc/star.html', 438, 420 ]
+silly extracting entry html/doc/start.html
+silly modified mode [ 'html/doc/start.html', 438, 420 ]
+silly extracting entry html/doc/stop.html
+silly modified mode [ 'html/doc/stop.html', 438, 420 ]
+silly extracting entry html/doc/style.css
+silly modified mode [ 'html/doc/style.css', 438, 420 ]
+silly extracting entry html/doc/submodule.html
+silly modified mode [ 'html/doc/submodule.html', 438, 420 ]
+silly extracting entry html/doc/tag.html
+silly modified mode [ 'html/doc/tag.html', 438, 420 ]
+silly extracting entry html/doc/test.html
+silly modified mode [ 'html/doc/test.html', 438, 420 ]
+silly extracting entry html/doc/uninstall.html
+silly modified mode [ 'html/doc/uninstall.html', 438, 420 ]
+silly extracting entry html/doc/unpublish.html
+silly modified mode [ 'html/doc/unpublish.html', 438, 420 ]
+silly extracting entry html/doc/update.html
+silly modified mode [ 'html/doc/update.html', 438, 420 ]
+silly extracting entry html/doc/version.html
+silly modified mode [ 'html/doc/version.html', 438, 420 ]
+silly extracting entry html/doc/view.html
+silly modified mode [ 'html/doc/view.html', 438, 420 ]
+silly extracting entry html/doc/whoami.html
+silly modified mode [ 'html/doc/whoami.html', 438, 420 ]
+silly extracting entry html/npm-16.png
+silly modified mode [ 'html/npm-16.png', 438, 420 ]
+silly extracting entry html/npm-256-square.png
+silly modified mode [ 'html/npm-256-square.png', 438, 420 ]
+silly extracting entry html/npm-256w.png
+silly modified mode [ 'html/npm-256w.png', 438, 420 ]
+silly extracting entry html/npm-64-square.png
+silly modified mode [ 'html/npm-64-square.png', 438, 420 ]
+silly extracting entry html/npm-fin.png
+silly modified mode [ 'html/npm-fin.png', 438, 420 ]
+silly extracting entry html/npm-large.png
+silly modified mode [ 'html/npm-large.png', 438, 420 ]
+silly extracting entry html/npm.png
+silly modified mode [ 'html/npm.png', 438, 420 ]
+silly extracting entry .travis.yml
+silly modified mode [ '.travis.yml', 438, 420 ]
+silly extracting entry AUTHORS
+silly modified mode [ 'AUTHORS', 438, 420 ]
+silly extracting entry Makefile
+silly modified mode [ 'Makefile', 438, 420 ]
+silly extracting entry man/man1/ls.1
+silly modified mode [ 'man/man1/ls.1', 438, 420 ]
+silly extracting entry man/man1/adduser.1
+silly modified mode [ 'man/man1/adduser.1', 438, 420 ]
+silly extracting entry man/man1/bin.1
+silly modified mode [ 'man/man1/bin.1', 438, 420 ]
+silly extracting entry man/man1/bugs.1
+silly modified mode [ 'man/man1/bugs.1', 438, 420 ]
+silly extracting entry man/man1/build.1
+silly modified mode [ 'man/man1/build.1', 438, 420 ]
+silly extracting entry man/man1/bundle.1
+silly modified mode [ 'man/man1/bundle.1', 438, 420 ]
+silly extracting entry man/man1/cache.1
+silly modified mode [ 'man/man1/cache.1', 438, 420 ]
+silly extracting entry man/man1/changelog.1
+silly modified mode [ 'man/man1/changelog.1', 438, 420 ]
+silly extracting entry man/man1/coding-style.1
+silly modified mode [ 'man/man1/coding-style.1', 438, 420 ]
+silly extracting entry man/man1/completion.1
+silly modified mode [ 'man/man1/completion.1', 438, 420 ]
+silly extracting entry man/man1/config.1
+silly modified mode [ 'man/man1/config.1', 438, 420 ]
+silly extracting entry man/man1/deprecate.1
+silly modified mode [ 'man/man1/deprecate.1', 438, 420 ]
+silly extracting entry man/man1/developers.1
+silly modified mode [ 'man/man1/developers.1', 438, 420 ]
+silly extracting entry man/man1/disputes.1
+silly modified mode [ 'man/man1/disputes.1', 438, 420 ]
+silly extracting entry man/man1/docs.1
+silly modified mode [ 'man/man1/docs.1', 438, 420 ]
+silly extracting entry man/man1/edit.1
+silly modified mode [ 'man/man1/edit.1', 438, 420 ]
+silly extracting entry man/man1/explore.1
+silly modified mode [ 'man/man1/explore.1', 438, 420 ]
+silly extracting entry man/man1/faq.1
+silly modified mode [ 'man/man1/faq.1', 438, 420 ]
+silly extracting entry man/man1/find.1
+silly modified mode [ 'man/man1/find.1', 438, 420 ]
+silly extracting entry man/man1/folders.1
+silly modified mode [ 'man/man1/folders.1', 438, 420 ]
+silly extracting entry man/man1/get.1
+silly modified mode [ 'man/man1/get.1', 438, 420 ]
+silly extracting entry man/man1/global.1
+silly modified mode [ 'man/man1/global.1', 438, 420 ]
+silly extracting entry man/man1/help-search.1
+silly modified mode [ 'man/man1/help-search.1', 438, 420 ]
+silly extracting entry man/man1/help.1
+silly modified mode [ 'man/man1/help.1', 438, 420 ]
+silly extracting entry man/man1/home.1
+silly modified mode [ 'man/man1/home.1', 438, 420 ]
+silly extracting entry man/man1/index.1
+silly modified mode [ 'man/man1/index.1', 438, 420 ]
+silly extracting entry man/man1/init.1
+silly modified mode [ 'man/man1/init.1', 438, 420 ]
+silly extracting entry man/man1/install.1
+silly modified mode [ 'man/man1/install.1', 438, 420 ]
+silly extracting entry man/man1/json.1
+silly modified mode [ 'man/man1/json.1', 438, 420 ]
+silly extracting entry man/man1/link.1
+silly modified mode [ 'man/man1/link.1', 438, 420 ]
+silly extracting entry man/man1/list.1
+silly modified mode [ 'man/man1/list.1', 438, 420 ]
+silly extracting entry man/man1/ln.1
+silly modified mode [ 'man/man1/ln.1', 438, 420 ]
+silly extracting entry man/man1/author.1
+silly modified mode [ 'man/man1/author.1', 438, 420 ]
+silly extracting entry man/man1/npm.1
+silly modified mode [ 'man/man1/npm.1', 438, 420 ]
+silly extracting entry man/man1/outdated.1
+silly modified mode [ 'man/man1/outdated.1', 438, 420 ]
+silly extracting entry man/man1/owner.1
+silly modified mode [ 'man/man1/owner.1', 438, 420 ]
+silly extracting entry man/man1/pack.1
+silly modified mode [ 'man/man1/pack.1', 438, 420 ]
+silly extracting entry man/man1/prefix.1
+silly modified mode [ 'man/man1/prefix.1', 438, 420 ]
+silly extracting entry man/man1/prune.1
+silly modified mode [ 'man/man1/prune.1', 438, 420 ]
+silly extracting entry man/man1/publish.1
+silly modified mode [ 'man/man1/publish.1', 438, 420 ]
+silly extracting entry man/man1/README.1
+silly modified mode [ 'man/man1/README.1', 438, 420 ]
+silly extracting entry man/man1/rebuild.1
+silly modified mode [ 'man/man1/rebuild.1', 438, 420 ]
+silly extracting entry man/man1/registry.1
+silly modified mode [ 'man/man1/registry.1', 438, 420 ]
+silly extracting entry man/man1/removing-npm.1
+silly modified mode [ 'man/man1/removing-npm.1', 438, 420 ]
+silly extracting entry man/man1/restart.1
+silly modified mode [ 'man/man1/restart.1', 438, 420 ]
+silly extracting entry man/man1/rm.1
+silly modified mode [ 'man/man1/rm.1', 438, 420 ]
+silly extracting entry man/man1/root.1
+silly modified mode [ 'man/man1/root.1', 438, 420 ]
+silly extracting entry man/man1/run-script.1
+silly modified mode [ 'man/man1/run-script.1', 438, 420 ]
+silly extracting entry man/man1/scripts.1
+silly modified mode [ 'man/man1/scripts.1', 438, 420 ]
+silly extracting entry man/man1/search.1
+silly modified mode [ 'man/man1/search.1', 438, 420 ]
+silly extracting entry man/man1/semver.1
+silly modified mode [ 'man/man1/semver.1', 438, 420 ]
+silly extracting entry man/man1/set.1
+silly modified mode [ 'man/man1/set.1', 438, 420 ]
+silly extracting entry man/man1/shrinkwrap.1
+silly modified mode [ 'man/man1/shrinkwrap.1', 438, 420 ]
+silly extracting entry man/man1/star.1
+silly modified mode [ 'man/man1/star.1', 438, 420 ]
+silly extracting entry man/man1/start.1
+silly modified mode [ 'man/man1/start.1', 438, 420 ]
+silly extracting entry man/man1/stop.1
+silly modified mode [ 'man/man1/stop.1', 438, 420 ]
+silly extracting entry man/man1/submodule.1
+silly modified mode [ 'man/man1/submodule.1', 438, 420 ]
+silly extracting entry man/man1/tag.1
+silly modified mode [ 'man/man1/tag.1', 438, 420 ]
+silly extracting entry man/man1/test.1
+silly modified mode [ 'man/man1/test.1', 438, 420 ]
+silly extracting entry man/man1/uninstall.1
+silly modified mode [ 'man/man1/uninstall.1', 438, 420 ]
+silly extracting entry man/man1/unpublish.1
+silly modified mode [ 'man/man1/unpublish.1', 438, 420 ]
+silly extracting entry man/man1/update.1
+silly modified mode [ 'man/man1/update.1', 438, 420 ]
+silly extracting entry man/man1/version.1
+silly modified mode [ 'man/man1/version.1', 438, 420 ]
+silly extracting entry man/man1/view.1
+silly modified mode [ 'man/man1/view.1', 438, 420 ]
+silly extracting entry man/man1/whoami.1
+silly modified mode [ 'man/man1/whoami.1', 438, 420 ]
+silly extracting entry man/man3/pack.3
+silly modified mode [ 'man/man3/pack.3', 438, 420 ]
+silly extracting entry man/man3/author.3
+silly modified mode [ 'man/man3/author.3', 438, 420 ]
+silly extracting entry man/man3/bugs.3
+silly modified mode [ 'man/man3/bugs.3', 438, 420 ]
+silly extracting entry man/man3/commands.3
+silly modified mode [ 'man/man3/commands.3', 438, 420 ]
+silly extracting entry man/man3/config.3
+silly modified mode [ 'man/man3/config.3', 438, 420 ]
+silly extracting entry man/man3/deprecate.3
+silly modified mode [ 'man/man3/deprecate.3', 438, 420 ]
+silly extracting entry man/man3/docs.3
+silly modified mode [ 'man/man3/docs.3', 438, 420 ]
+silly extracting entry man/man3/edit.3
+silly modified mode [ 'man/man3/edit.3', 438, 420 ]
+silly extracting entry man/man3/explore.3
+silly modified mode [ 'man/man3/explore.3', 438, 420 ]
+silly extracting entry man/man3/find.3
+silly modified mode [ 'man/man3/find.3', 438, 420 ]
+silly extracting entry man/man3/get.3
+silly modified mode [ 'man/man3/get.3', 438, 420 ]
+silly extracting entry man/man3/help-search.3
+silly modified mode [ 'man/man3/help-search.3', 438, 420 ]
+silly extracting entry man/man3/home.3
+silly modified mode [ 'man/man3/home.3', 438, 420 ]
+silly extracting entry man/man3/init.3
+silly modified mode [ 'man/man3/init.3', 438, 420 ]
+silly extracting entry man/man3/install.3
+silly modified mode [ 'man/man3/install.3', 438, 420 ]
+silly extracting entry man/man3/link.3
+silly modified mode [ 'man/man3/link.3', 438, 420 ]
+silly extracting entry man/man3/list.3
+silly modified mode [ 'man/man3/list.3', 438, 420 ]
+silly extracting entry man/man3/ln.3
+silly modified mode [ 'man/man3/ln.3', 438, 420 ]
+silly extracting entry man/man3/load.3
+silly modified mode [ 'man/man3/load.3', 438, 420 ]
+silly extracting entry man/man3/ls.3
+silly modified mode [ 'man/man3/ls.3', 438, 420 ]
+silly extracting entry man/man3/npm.3
+silly modified mode [ 'man/man3/npm.3', 438, 420 ]
+silly extracting entry man/man3/outdated.3
+silly modified mode [ 'man/man3/outdated.3', 438, 420 ]
+silly extracting entry man/man3/owner.3
+silly modified mode [ 'man/man3/owner.3', 438, 420 ]
+silly extracting entry man/man3/bin.3
+silly modified mode [ 'man/man3/bin.3', 438, 420 ]
+silly extracting entry man/man3/prefix.3
+silly modified mode [ 'man/man3/prefix.3', 438, 420 ]
+silly extracting entry man/man3/prune.3
+silly modified mode [ 'man/man3/prune.3', 438, 420 ]
+silly extracting entry man/man3/publish.3
+silly modified mode [ 'man/man3/publish.3', 438, 420 ]
+silly extracting entry man/man3/rebuild.3
+silly modified mode [ 'man/man3/rebuild.3', 438, 420 ]
+silly extracting entry man/man3/restart.3
+silly modified mode [ 'man/man3/restart.3', 438, 420 ]
+silly extracting entry man/man3/rm.3
+silly modified mode [ 'man/man3/rm.3', 438, 420 ]
+silly extracting entry man/man3/root.3
+silly modified mode [ 'man/man3/root.3', 438, 420 ]
+silly extracting entry man/man3/run-script.3
+silly modified mode [ 'man/man3/run-script.3', 438, 420 ]
+silly extracting entry man/man3/search.3
+silly modified mode [ 'man/man3/search.3', 438, 420 ]
+silly extracting entry man/man3/set.3
+silly modified mode [ 'man/man3/set.3', 438, 420 ]
+silly extracting entry man/man3/shrinkwrap.3
+silly modified mode [ 'man/man3/shrinkwrap.3', 438, 420 ]
+silly extracting entry man/man3/start.3
+silly modified mode [ 'man/man3/start.3', 438, 420 ]
+silly extracting entry man/man3/stop.3
+silly modified mode [ 'man/man3/stop.3', 438, 420 ]
+silly extracting entry man/man3/submodule.3
+silly modified mode [ 'man/man3/submodule.3', 438, 420 ]
+silly extracting entry man/man3/tag.3
+silly modified mode [ 'man/man3/tag.3', 438, 420 ]
+silly extracting entry man/man3/test.3
+silly modified mode [ 'man/man3/test.3', 438, 420 ]
+silly extracting entry man/man3/uninstall.3
+silly modified mode [ 'man/man3/uninstall.3', 438, 420 ]
+silly extracting entry man/man3/unpublish.3
+silly modified mode [ 'man/man3/unpublish.3', 438, 420 ]
+silly extracting entry man/man3/update.3
+silly modified mode [ 'man/man3/update.3', 438, 420 ]
+silly extracting entry man/man3/version.3
+silly modified mode [ 'man/man3/version.3', 438, 420 ]
+silly extracting entry man/man3/view.3
+silly modified mode [ 'man/man3/view.3', 438, 420 ]
+silly extracting entry man/man3/whoami.3
+silly modified mode [ 'man/man3/whoami.3', 438, 420 ]
+silly extracting entry scripts/index-build.js
+silly modified mode [ 'scripts/index-build.js', 438, 420 ]
+silly extracting entry scripts/clean-old.sh
+silly modified mode [ 'scripts/clean-old.sh', 438, 420 ]
+silly extracting entry scripts/doc-build.sh
+silly modified mode [ 'scripts/doc-build.sh', 438, 420 ]
+silly extracting entry scripts/install.sh
+silly modified mode [ 'scripts/install.sh', 438, 420 ]
+silly extracting entry scripts/release.sh
+silly modified mode [ 'scripts/release.sh', 438, 420 ]
+silly extracting entry bin/npm-cli.js
+silly modified mode [ 'bin/npm-cli.js', 438, 420 ]
+silly extracting entry bin/read-package-json.js
+silly modified mode [ 'bin/read-package-json.js', 438, 420 ]
+silly extracting entry bin/node-gyp-bin/node-gyp
+silly modified mode [ 'bin/node-gyp-bin/node-gyp', 438, 420 ]
+silly extracting entry bin/node-gyp-bin/node-gyp.cmd
+silly modified mode [ 'bin/node-gyp-bin/node-gyp.cmd', 438, 420 ]
+silly extracting entry bin/npm
+silly modified mode [ 'bin/npm', 438, 420 ]
+silly extracting entry bin/npm.cmd
+silly modified mode [ 'bin/npm.cmd', 438, 420 ]
+silly extracting entry test/common.js
+silly modified mode [ 'test/common.js', 438, 420 ]
+silly extracting entry test/run.js
+silly modified mode [ 'test/run.js', 438, 420 ]
+silly extracting entry test/disabled/bundlerecurs/package.json
+silly modified mode [ 'test/disabled/bundlerecurs/package.json', 438, 420 ]
+silly extracting entry test/disabled/failer/package.json
+silly modified mode [ 'test/disabled/failer/package.json', 438, 420 ]
+silly extracting entry test/disabled/fast/package.json
+silly modified mode [ 'test/disabled/fast/package.json', 438, 420 ]
+silly extracting entry test/disabled/package-bar/package.json
+silly modified mode [ 'test/disabled/package-bar/package.json', 438, 420 ]
+silly extracting entry test/disabled/package-config/package.json
+silly modified mode [ 'test/disabled/package-config/package.json', 438, 420 ]
+silly extracting entry test/disabled/package-config/test.js
+silly modified mode [ 'test/disabled/package-config/test.js', 438, 420 ]
+silly extracting entry test/disabled/package-foo/package.json
+silly modified mode [ 'test/disabled/package-foo/package.json', 438, 420 ]
+silly extracting entry test/disabled/slow/package.json
+silly modified mode [ 'test/disabled/slow/package.json', 438, 420 ]
+silly extracting entry test/disabled/startstop/package.json
+silly modified mode [ 'test/disabled/startstop/package.json', 438, 420 ]
+silly extracting entry test/packages/npm-test-optional-deps/package.json
+silly modified mode [ 'test/packages/npm-test-optional-deps/package.json', 438, 420 ]
+silly extracting entry test/packages/npm-test-optional-deps/test.js
+silly modified mode [ 'test/packages/npm-test-optional-deps/test.js', 438, 420 ]
+silly extracting entry test/packages/npm-test-blerg/package.json
+silly modified mode [ 'test/packages/npm-test-blerg/package.json', 438, 420 ]
+silly extracting entry test/packages/npm-test-blerg/test.js
+silly modified mode [ 'test/packages/npm-test-blerg/test.js', 438, 420 ]
+silly extracting entry test/packages/npm-test-env-reader/package.json
+silly modified mode [ 'test/packages/npm-test-env-reader/package.json', 438, 420 ]
+silly extracting entry test/packages/npm-test-env-reader/test.js
+silly modified mode [ 'test/packages/npm-test-env-reader/test.js', 438, 420 ]
+silly extracting entry test/packages/npm-test-files/package.json
+silly modified mode [ 'test/packages/npm-test-files/package.json', 438, 420 ]
+silly extracting entry test/packages/npm-test-files/.npmignore
+silly modified mode [ 'test/packages/npm-test-files/.npmignore', 438, 420 ]
+silly extracting entry test/packages/npm-test-files/include4
+silly modified mode [ 'test/packages/npm-test-files/include4', 438, 420 ]
+silly extracting entry test/packages/npm-test-files/sub/include
+silly modified mode [ 'test/packages/npm-test-files/sub/include', 438, 420 ]
+silly extracting entry test/packages/npm-test-files/sub/include2
+silly modified mode [ 'test/packages/npm-test-files/sub/include2', 438, 420 ]
+silly extracting entry test/packages/npm-test-files/sub/include4
+silly modified mode [ 'test/packages/npm-test-files/sub/include4', 438, 420 ]
+silly extracting entry test/packages/npm-test-files/test.sh
+silly modified mode [ 'test/packages/npm-test-files/test.sh', 438, 420 ]
+silly extracting entry test/packages/npm-test-ignore/package.json
+silly modified mode [ 'test/packages/npm-test-ignore/package.json', 438, 420 ]
+silly extracting entry test/packages/npm-test-ignore/.npmignore
+silly modified mode [ 'test/packages/npm-test-ignore/.npmignore', 438, 420 ]
+silly extracting entry test/packages/npm-test-ignore/include4
+silly modified mode [ 'test/packages/npm-test-ignore/include4', 438, 420 ]
+silly extracting entry test/packages/npm-test-ignore/sub/include
+silly modified mode [ 'test/packages/npm-test-ignore/sub/include', 438, 420 ]
+silly extracting entry test/packages/npm-test-ignore/sub/include2
+silly modified mode [ 'test/packages/npm-test-ignore/sub/include2', 438, 420 ]
+silly extracting entry test/packages/npm-test-ignore/sub/include4
+silly modified mode [ 'test/packages/npm-test-ignore/sub/include4', 438, 420 ]
+silly extracting entry test/packages/npm-test-ignore/test.sh
+silly modified mode [ 'test/packages/npm-test-ignore/test.sh', 438, 420 ]
+silly extracting entry test/packages/npm-test-missing-bindir/package.json
+silly modified mode [ 'test/packages/npm-test-missing-bindir/package.json',
+silly modified mode   438,
+silly modified mode   420 ]
+silly extracting entry test/packages/npm-test-missing-bindir/test.js
+silly modified mode [ 'test/packages/npm-test-missing-bindir/test.js', 438, 420 ]
+silly extracting entry test/packages/npm-test-bundled-git/package.json
+silly modified mode [ 'test/packages/npm-test-bundled-git/package.json', 438, 420 ]
+silly extracting entry test/packages/npm-test-bundled-git/test.js
+silly modified mode [ 'test/packages/npm-test-bundled-git/test.js', 438, 420 ]
+silly extracting entry test/packages/npm-test-bundled-git/minimatch-expected.json
+silly modified mode [ 'test/packages/npm-test-bundled-git/minimatch-expected.json',
+silly modified mode   438,
+silly modified mode   420 ]
+silly extracting entry test/packages/npm-test-platform/package.json
+silly modified mode [ 'test/packages/npm-test-platform/package.json', 438, 420 ]
+silly extracting entry test/packages/npm-test-platform-all/package.json
+silly modified mode [ 'test/packages/npm-test-platform-all/package.json', 438, 420 ]
+silly extracting entry test/packages/npm-test-private/package.json
+silly modified mode [ 'test/packages/npm-test-private/package.json', 438, 420 ]
+silly extracting entry test/packages/npm-test-shrinkwrap/package.json
+silly modified mode [ 'test/packages/npm-test-shrinkwrap/package.json', 438, 420 ]
+silly extracting entry test/packages/npm-test-shrinkwrap/npm-shrinkwrap.json
+silly modified mode [ 'test/packages/npm-test-shrinkwrap/npm-shrinkwrap.json',
+silly modified mode   438,
+silly modified mode   420 ]
+silly extracting entry test/packages/npm-test-shrinkwrap/test.sh
+silly modified mode [ 'test/packages/npm-test-shrinkwrap/test.sh', 438, 420 ]
+silly extracting entry test/packages/npm-test-test-package/package.json
+silly modified mode [ 'test/packages/npm-test-test-package/package.json', 438, 420 ]
+silly extracting entry test/packages/npm-test-url-dep/package.json
+silly modified mode [ 'test/packages/npm-test-url-dep/package.json', 438, 420 ]
+silly extracting entry test/update-test.sh
+silly modified mode [ 'test/update-test.sh', 438, 420 ]
+silly extracting entry lib/adduser.js
+silly modified mode [ 'lib/adduser.js', 438, 420 ]
+silly extracting entry lib/outdated.js
+silly modified mode [ 'lib/outdated.js', 438, 420 ]
+silly extracting entry lib/owner.js
+silly modified mode [ 'lib/owner.js', 438, 420 ]
+silly extracting entry lib/pack.js
+silly modified mode [ 'lib/pack.js', 438, 420 ]
+silly extracting entry lib/prefix.js
+silly modified mode [ 'lib/prefix.js', 438, 420 ]
+silly extracting entry lib/npm.js
+silly modified mode [ 'lib/npm.js', 438, 420 ]
+silly extracting entry lib/publish.js
+silly modified mode [ 'lib/publish.js', 438, 420 ]
+silly extracting entry lib/rebuild.js
+silly modified mode [ 'lib/rebuild.js', 438, 420 ]
+silly extracting entry lib/restart.js
+silly modified mode [ 'lib/restart.js', 438, 420 ]
+silly extracting entry lib/root.js
+silly modified mode [ 'lib/root.js', 438, 420 ]
+silly extracting entry lib/run-script.js
+silly modified mode [ 'lib/run-script.js', 438, 420 ]
+silly extracting entry lib/ls.js
+silly modified mode [ 'lib/ls.js', 438, 420 ]
+silly extracting entry lib/search.js
+silly modified mode [ 'lib/search.js', 438, 420 ]
+silly extracting entry lib/link.js
+silly modified mode [ 'lib/link.js', 438, 420 ]
+silly extracting entry lib/set.js
+silly modified mode [ 'lib/set.js', 438, 420 ]
+silly extracting entry lib/install.js
+silly modified mode [ 'lib/install.js', 438, 420 ]
+silly extracting entry lib/shrinkwrap.js
+silly modified mode [ 'lib/shrinkwrap.js', 438, 420 ]
+silly extracting entry lib/init.js
+silly modified mode [ 'lib/init.js', 438, 420 ]
+silly extracting entry lib/star.js
+silly modified mode [ 'lib/star.js', 438, 420 ]
+silly extracting entry lib/help.js
+silly modified mode [ 'lib/help.js', 438, 420 ]
+silly extracting entry lib/start.js
+silly modified mode [ 'lib/start.js', 438, 420 ]
+silly extracting entry lib/help-search.js
+silly modified mode [ 'lib/help-search.js', 438, 420 ]
+silly extracting entry lib/stop.js
+silly modified mode [ 'lib/stop.js', 438, 420 ]
+silly extracting entry lib/get.js
+silly modified mode [ 'lib/get.js', 438, 420 ]
+silly extracting entry lib/submodule.js
+silly modified mode [ 'lib/submodule.js', 438, 420 ]
+silly extracting entry lib/faq.js
+silly modified mode [ 'lib/faq.js', 438, 420 ]
+silly extracting entry lib/substack.js
+silly modified mode [ 'lib/substack.js', 438, 420 ]
+silly extracting entry lib/explore.js
+silly modified mode [ 'lib/explore.js', 438, 420 ]
+silly extracting entry lib/tag.js
+silly modified mode [ 'lib/tag.js', 438, 420 ]
+silly extracting entry lib/edit.js
+silly modified mode [ 'lib/edit.js', 438, 420 ]
+silly extracting entry lib/test.js
+silly modified mode [ 'lib/test.js', 438, 420 ]
+silly extracting entry lib/docs.js
+silly modified mode [ 'lib/docs.js', 438, 420 ]
+silly extracting entry lib/unbuild.js
+silly modified mode [ 'lib/unbuild.js', 438, 420 ]
+silly extracting entry lib/deprecate.js
+silly modified mode [ 'lib/deprecate.js', 438, 420 ]
+silly extracting entry lib/uninstall.js
+silly modified mode [ 'lib/uninstall.js', 438, 420 ]
+silly extracting entry lib/config.js
+silly modified mode [ 'lib/config.js', 438, 420 ]
+silly extracting entry lib/unpublish.js
+silly modified mode [ 'lib/unpublish.js', 438, 420 ]
+silly extracting entry lib/completion.js
+silly modified mode [ 'lib/completion.js', 438, 420 ]
+silly extracting entry lib/update.js
+silly modified mode [ 'lib/update.js', 438, 420 ]
+silly extracting entry lib/cache.js
