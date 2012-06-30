@@ -89,11 +89,26 @@
             this.template = options.template;
             this.itemTemplate = options.itemTemplate;
 
+            // The user can override the "newItem" function with their own one,
+            // by passing it in through the options mechanism.
+            if (typeof(options.options.newModel) === 'function') {
+                this.newModel = options.options.newModel;
+            }
+
+            // The user can override the "filter" function with their own one,
+            // by passing it in through the options mechanism.
+            if (typeof(options.options.filter) === 'function') {
+                this.filter = options.options.filter;
+            }
+
             this.itemViews = [];
 
-            this.collection.each(function(activity) {
+            var filteredItems = this.collection.select(this.filter);
+
+            _.each(filteredItems, function(activity) {
                 me.itemViews.push( createItemView(activity, me.itemTemplate ));
             });
+
 
             this.collection.bind("add", this.add);
             this.collection.bind("remove", this.remove);
@@ -103,14 +118,18 @@
         add: function(item) {
             var me = this;
 
-            // Create a new view
-            var view = createItemView(item, this.itemTemplate);
+            if (this.filter(item)) {
+                // Create a new view
+                var view = createItemView(item, this.itemTemplate);
 
 
 
-            // Add it to the list
-            this.itemViews.push(view);
-            this.appendItem(view);
+                // Add it to the list
+                this.itemViews.push(view);
+                this.appendItem(view);
+            }
+
+
 
 
         },
@@ -138,6 +157,14 @@
 
         },
 
+        newModel: function(inputText) {
+            return { title: inputText }
+        },
+
+        filter: function(itemModel) {
+            return true;
+        },
+
         render: function(){
             var me = this;
             $(this.el).empty();
@@ -162,7 +189,7 @@
                         if ( event.which === 13 ) {
                     // TODO: Allow the user to pass a callback in here, so that they can create items in their code.
                             var inputText = $("#newItemTitle").val();
-                            me.collection.create({ title: inputText, description: "", deadline: ""});
+                            me.collection.create(me.newModel(inputText));
                             $(newItem).remove();
                             me.newInputShowing = false;
                         }
@@ -189,11 +216,16 @@
 
     });
 
-    var createListView = function(collection, template, itemTemplate, elementSelector) {
-        return new ListView({collection: collection, template: template, itemTemplate: itemTemplate, el: elementSelector});
+    var createListView = function(collection, template, itemTemplate, elementSelector, options) {
+        return new ListView({
+            collection: collection,
+            template: template,
+            itemTemplate: itemTemplate,
+            el: elementSelector,
+            options: options});
     };
 
-    ItemList.itemList = function(template, itemTemplate, elementSelector) {
+    ItemList.itemList = function(template, itemTemplate, elementSelector, options) {
 
         var listUrl = $(elementSelector).attr("data-list-url");
 
@@ -204,7 +236,7 @@
         collection.fetch({
             success: function(data, response) {
                 if (typeof(data) !== 'undefined') {
-                    var view = createListView(data, template, itemTemplate, elementSelector);
+                    var view = createListView(data, template, itemTemplate, elementSelector, options);
                     view.render();
                 }
             }
