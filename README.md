@@ -12,13 +12,13 @@ Already there:
   - RESTful
   - Title and Url specified through HTML5 data attributes
   - Generated HTML can be completely customized
+  - Custom item schema
+  - Filtering of items
 
 Coming Soon:
   - Inline edit of items
-  - Custom item schema
   - Customizeable edit behavior
   - Ordering of items
-  - Filtering of items
 
 ## How it works
 
