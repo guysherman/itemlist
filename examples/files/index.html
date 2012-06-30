@@ -72,7 +72,16 @@
 				var itemTemplate = new String($("#bottomTemplate")[0].innerHTML);
 				var selector = "#activityList";
 				
-				ItemList.itemList(listTemplate, itemTemplate, selector);
+				ItemList.itemList(listTemplate, itemTemplate, selector, {
+					newModel: function(inputText) {
+						title: inputText;
+					},
+					
+					filter: function(itemModel) {
+						return itemModel.get("title") !== "";
+					}
+					
+				});
 			});
 		</script>
 		
@@ -81,6 +90,9 @@
 	<body>
 		<div id="activityList" data-title="My Activities" data-list-url="/activities/:id:">
 		
+		</div>
+		<div>
+			Try creating an empty item. They don't appear in the list because of the filter that is applied.
 		</div>
 	
 	</body>
